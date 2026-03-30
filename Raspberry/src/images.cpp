@@ -6,7 +6,7 @@ int main(){
 
     cv::VideoCapture cap(0);
     if (!cap.isOpened()) {
-        std::cerr << "Erreur : Impossible d'ouvrir la caméra" << std::endl;
+        std::cerr << "Erreur" << std::endl;
         return -1;
     }
 
