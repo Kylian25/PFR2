@@ -105,6 +105,6 @@ int detecter_obstacle(){
   long duree = pulseIn(echo_fwd, HIGH, 30000);
   float distance = duree * 0.034/2;
 
-  if (distance < 50) return 1;
+  if (distance < 60) return 1;
   else return 0;
 }
