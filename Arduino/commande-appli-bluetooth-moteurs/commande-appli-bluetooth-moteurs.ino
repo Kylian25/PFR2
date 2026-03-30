@@ -5,6 +5,9 @@ AF_DCMotor motor2(2); // AV Gauche
 AF_DCMotor motor3(3); // ARR Droit
 AF_DCMotor motor4(4); // AV Droit
 
+const int trig_fwd = 30;
+const int echo_fwd = 31;
+
 #define VMAX 230
 
 void setup() {
@@ -20,6 +23,9 @@ void setup() {
   motor2.run(RELEASE);
   motor3.run(RELEASE);
   motor4.run(RELEASE);
+
+  pinMode(trig_fwd,OUTPUT);
+  pinMode(echo_fwd,INPUT);
 }
 
 void loop() {
@@ -35,7 +41,10 @@ void loop() {
           stopMoteurs();
           break;
       case 'F':
-          avancer();
+          if (detecter_obstacle()){
+            stopMoteurs();
+          }
+          else avancer();
           break;
       case 'B':
           reculer();
@@ -84,4 +93,18 @@ void droite(){
   motor2.run(FORWARD);
   motor3.run(BACKWARD);
   motor4.run(BACKWARD);
+}
+
+int detecter_obstacle(){
+  digitalWrite(trig_fwd,LOW);
+  delayMicroseconds(2);
+  digitalWrite(trig_fwd,HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trig_fwd,LOW);
+
+  long duree = pulseIn(echo_fwd, HIGH, 30000);
+  float distance = duree * 0.034/2;
+
+  if (distance < 50) return 1;
+  else return 0;
 }
