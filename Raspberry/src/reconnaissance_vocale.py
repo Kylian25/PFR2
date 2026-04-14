@@ -26,12 +26,12 @@ def commande_vocale(langue):
 
 
 def sauvegarder_texte(resultat):
-    with open(r"C:\Users\ntech\Downloads\reconaissance.txt", "w", encoding="utf-8") as fichier:
+    with open(r"C:\Users\CMF5190A\Downloads\rect.txt", "w", encoding="utf-8") as fichier:
         fichier.write(resultat)
 
 
 def test_text():
-    with open(r"C:\Users\ntech\Downloads\reconaissance.txt", "r", encoding="utf-8") as fichier:
+    with open(r"C:\Users\CMF5190A\Downloads\rect.txt", "r", encoding="utf-8") as fichier:
         texte = fichier.read().strip()
 
     cmd = rte.parse_command(texte)

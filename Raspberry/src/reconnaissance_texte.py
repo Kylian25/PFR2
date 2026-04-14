@@ -35,7 +35,7 @@ ACTION_PATTERNS = [
         "detecte la couleur", "detecter la couleur", "detecte une couleur",
         "cherche la couleur", "identifie la couleur", "reconnais la couleur",
         "reconnaissance de couleur", "analyse la couleur", "lis la couleur",
-        "quelle est la couleur", "quelle couleur", "va vers la couleur", "allez vers la couleur"
+        "quelle est la couleur", "quelle couleur", "va vers la couleur", "allez vers la couleur", "detecte", "detecte l'objetdetecte l'objet "
     ]),
     (Intent.TOURNER_GAUCHE, [
         "tourne a gauche", "tourner a gauche", "tournez a gauche",
@@ -265,6 +265,5 @@ def interactive_demo():
 
 
 if __name__ == "__main__":
-    command
     interactive_demo()
     demo(samples)
