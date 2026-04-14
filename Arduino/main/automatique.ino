@@ -99,8 +99,10 @@ int detecter_obstacle(int trig, int echo){
   digitalWrite(trig,LOW);
 
   long duree = pulseIn(echo, HIGH, 30000);
+  if (duree == 0) return 0;
+
   float distance = duree * 0.034/2;
 
-  if (distance < 50) return 1;
+  if (distance > 2 && distance < 50) return 1;
   else return 0;
 }
