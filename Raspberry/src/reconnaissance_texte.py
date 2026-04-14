@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from enum import Enum
 from typing import Optional, List
 
+
 class Intent(Enum):
     UNKNOWN = "UNKNOWN"
     AVANCER = "AVANCER"
@@ -12,6 +13,7 @@ class Intent(Enum):
     TOURNER_DROITE = "TOURNER_DROITE"
     DETECTER_COULEUR = "DETECTER_COULEUR"
     STOP = "STOP"
+
 
 @dataclass
 class Command:
@@ -24,6 +26,7 @@ class Command:
     valid: bool = False
     error: Optional[str] = None
 
+
 ACTION_PATTERNS = [
     (Intent.STOP, [
         "stop", "arret", "arrete", "arrete toi", "arretez vous", "immobile"
@@ -32,7 +35,7 @@ ACTION_PATTERNS = [
         "detecte la couleur", "detecter la couleur", "detecte une couleur",
         "cherche la couleur", "identifie la couleur", "reconnais la couleur",
         "reconnaissance de couleur", "analyse la couleur", "lis la couleur",
-        "quelle est la couleur", "quelle couleur"
+        "quelle est la couleur", "quelle couleur", "va vers la couleur", "allez vers la couleur"
     ]),
     (Intent.TOURNER_GAUCHE, [
         "tourne a gauche", "tourner a gauche", "tournez a gauche",
@@ -136,7 +139,8 @@ def detect_intent(text: str) -> Intent:
 
 
 def extract_value_and_unit(text: str):
-    match = re.search(r"(-?\d+(?:[\.,]\d+)?)\s*(m|metre|metres|cm|centimetre|centimetres|degre|degres|s|sec|seconde|secondes)?\b", text)
+    match = re.search(
+        r"(-?\d+(?:[\.,]\d+)?)\s*(m|metre|metres|cm|centimetre|centimetres|degre|degres|s|sec|seconde|secondes)?\b", text)
     if not match:
         return None, None
     value = float(match.group(1).replace(",", "."))
@@ -157,6 +161,8 @@ def convert_value(value: float, unit: Optional[str]):
         return None, None
     if unit == "cm":
         return value / 100.0, "m"
+    if unit == "infini":
+        return float("inf"), "m"
     return value, unit
 
 
@@ -240,22 +246,25 @@ def demo(commands: List[str]):
         print(f"Payload: {command_to_robot_payload(cmd)}")
         print("-" * 60)
 
+
 def interactive_demo():
     print("Tape une commande (ou 'quit' pour quitter)")
-    
+
     while True:
         text = input(">> ")
-        
+
         if text.lower() in {"quit", "exit"}:
             break
-        
+
         cmd = parse_command(text)
         payload = command_to_robot_payload(cmd)
-        
+
         print("Parsed:", cmd)
         print("Payload:", payload)
         print("-" * 40)
-        
+
+
 if __name__ == "__main__":
+    command
     interactive_demo()
     demo(samples)
