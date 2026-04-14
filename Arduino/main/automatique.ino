@@ -24,7 +24,7 @@ void mode_auto(int trig_fwd, int echo_fwd, int trig_right, int echo_right) {
   etat_present = etat_suivant;
 }
 
-void mode_manuel(char bouton, int trig_fwd, int echo_fwd){
+void mode_manuel(char bouton, int trig_fwd, int echo_fwd) {
     switch(bouton){
       case 'S':
           stopMoteurs();
@@ -50,7 +50,8 @@ void avancer(){
   motor1.run(FORWARD);      
   motor2.run(FORWARD);      
   motor3.run(FORWARD);      
-  motor4.run(FORWARD);  
+  motor4.run(FORWARD);
+  Serial.println('F');
 }
 
 void reculer(){
@@ -59,6 +60,7 @@ void reculer(){
   motor2.run(BACKWARD);
   motor3.run(BACKWARD);
   motor4.run(BACKWARD);
+  Serial.println('B');
 }
 
 void gauche(){
@@ -67,6 +69,7 @@ void gauche(){
   motor2.run(BACKWARD);
   motor3.run(FORWARD);
   motor4.run(FORWARD);
+  Serial.println('L');
 }
 
 void droite(){
@@ -75,6 +78,7 @@ void droite(){
   motor2.run(FORWARD);
   motor3.run(BACKWARD);
   motor4.run(BACKWARD);
+  Serial.println('R');
 }
 
 void stopMoteurs(){
@@ -82,6 +86,7 @@ void stopMoteurs(){
   motor2.run(RELEASE);
   motor3.run(RELEASE);
   motor4.run(RELEASE);
+  Serial.println('S');
 }
 
 void set_speed(int speed){
@@ -89,6 +94,8 @@ void set_speed(int speed){
   motor2.setSpeed(speed);
   motor3.setSpeed(speed);
   motor4.setSpeed(speed);
+  Serial.print("Vitesse à ");
+  Serial.println(speed);
 }
 
 int detecter_obstacle(int trig, int echo){
@@ -103,6 +110,14 @@ int detecter_obstacle(int trig, int echo){
 
   float distance = duree * 0.034/2;
 
-  if (distance > 2 && distance < 50) return 1;
+  if (distance > 2 && distance < 50){
+    if (millis() - dernierEnvoi >= intervalle) {
+        if (trig == 30) Serial.print("Obstacle devant à : ");
+        else if (trig == 40) Serial.print("Obstacle à droite à : ");
+        Serial.println(distance);
+        dernierEnvoi = millis();
+    }
+    return 1;
+  }
   else return 0;
 }

@@ -16,6 +16,8 @@ const int echo_right = 41;
 int etat_present = 0;
 int etat_suivant = 0;
 int mode = 0;
+unsigned long dernierEnvoi = 0;
+const int intervalle = 500;
 
 void setup() {
   Serial.begin(38400); 
@@ -38,15 +40,17 @@ void setup() {
 }
 
 void loop() {
-  if (Serial3.available()) {
-    char bouton = Serial3.read();
-    Serial.print("Bouton reçu : ");
-    Serial.println(bouton);
+  if (Serial.available()) {
+    char bouton = Serial.read();
 
-    if (bouton == 'W') mode = 1;
+    if (bouton == 'W') {
+      mode = 1;
+      Serial.println("Passage en mode automatique");
+    }
     else if (bouton == 'w') {
       mode = 0;
       stopMoteurs();
+      Serial.println("Passage en mode manuel");
     }
     
     if (mode == 0) {
