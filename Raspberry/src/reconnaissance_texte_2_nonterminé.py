@@ -2,11 +2,11 @@ import re
 import unicodedata
 from dataclasses import dataclass
 from enum import Enum
-from typing import Optional
+from typing import Optional, List
 
 
 # =========================
-# INTENTIONS
+# ENUM + DATA CLASS
 # =========================
 class Intent(Enum):
     UNKNOWN = "UNKNOWN"
@@ -14,62 +14,81 @@ class Intent(Enum):
     RECULER = "RECULER"
     TOURNER_GAUCHE = "TOURNER_GAUCHE"
     TOURNER_DROITE = "TOURNER_DROITE"
-    DETECTER = "DETECTER"   # 👈 NOUVELLE INTENTION (capteur)
+    DETECTER_COULEUR = "DETECTER_COULEUR"
     STOP = "STOP"
 
 
-# =========================
-# STRUCTURE COMMANDE
-# =========================
 @dataclass
 class Command:
     intent: Intent
     value: Optional[float] = None
     unit: Optional[str] = None
-    target_color: Optional[str] = None  # 👈 objectif couleur séparé
-
+    color: Optional[str] = None
     raw_text: str = ""
     normalized_text: str = ""
-
     valid: bool = False
     error: Optional[str] = None
 
 
 # =========================
-# COULEURS
+# PATTERNS
 # =========================
+ACTION_PATTERNS = [
+    (Intent.STOP, ["stop", "arret", "arrete", "immobile"]),
+    (Intent.DETECTER_COULEUR, [
+        "detecte la couleur", "detecter la couleur",
+        "cherche la couleur", "identifie la couleur",
+        "reconnais la couleur", "analyse la couleur",
+        "quelle couleur", "va vers la couleur",
+        "detecte l objet"
+    ]),
+    (Intent.TOURNER_GAUCHE, [
+        "tourne a gauche", "tourner a gauche",
+        "va a gauche", "pivote a gauche", "braque a gauche"
+    ]),
+    (Intent.TOURNER_DROITE, [
+        "tourne a droite", "tourner a droite", "tourne",
+        "va a droite", "pivote a droite", "braque a droite"
+    ]),
+    (Intent.RECULER, ["recule", "reculer", "marche arriere"]),
+    (Intent.AVANCER, [
+        "avance", "avancer", "va tout droit",
+        "continue", "poursuis"
+    ]),
+]
+
+
 COLOR_ALIASES = {
-    "rouge": "rouge",
-    "vert": "vert",
-    "bleu": "bleu",
-    "jaune": "jaune",
-    "noir": "noir",
-    "blanc": "blanc",
+    "rouge": "rouge", "vert": "vert", "verte": "vert",
+    "bleu": "bleu", "bleue": "bleu", "jaune": "jaune",
+    "noir": "noir", "noire": "noir", "blanc": "blanc",
+    "blanche": "blanc", "orange": "orange",
+    "gris": "gris", "grise": "gris",
+    "rose": "rose", "violet": "violet",
+    "violette": "violet", "marron": "marron",
 }
 
 
-# =========================
-# UNITES
-# =========================
 UNIT_ALIASES = {
-    "m": "m",
-    "metre": "m",
-    "metres": "m",
-    "cm": "cm",
-    "centimetre": "cm",
-    "centimetres": "cm",
-    "deg": "deg",
-    "degre": "deg",
-    "degres": "deg",
+    "m": "m", "metre": "m", "metres": "m",
+    "cm": "cm", "centimetre": "cm", "centimetres": "cm",
+    "degre": "deg", "degres": "deg",
+    "s": "s", "sec": "s", "seconde": "s", "secondes": "s",
 }
 
 
 # =========================
 # NORMALISATION
 # =========================
+def strip_accents(text: str) -> str:
+    return "".join(
+        c for c in unicodedata.normalize("NFD", text)
+        if unicodedata.category(c) != "Mn"
+    )
+
+
 def normalize_text(text: str) -> str:
-    text = unicodedata.normalize("NFD", text.lower())
-    text = "".join(c for c in text if unicodedata.category(c) != "Mn")
+    text = strip_accents(text.lower())
     text = text.replace("'", " ")
     text = text.replace("-", " ")
     text = re.sub(r"[^a-z0-9\s]", " ", text)
@@ -78,37 +97,24 @@ def normalize_text(text: str) -> str:
 
 
 # =========================
-# DETECTER INTENTION
+# INTENT DETECTION
 # =========================
 def detect_intent(text: str) -> Intent:
-
-    if "stop" in text:
-        return Intent.STOP
-
-    if "avance" in text:
-        return Intent.AVANCER
-
-    if "recule" in text:
-        return Intent.RECULER
-
-    if "gauche" in text:
-        return Intent.TOURNER_GAUCHE
-
-    if "droite" in text:
-        return Intent.TOURNER_DROITE
-
-    # 👇 NOUVELLE INTENTION
-    if "detecte" in text or "cherche" in text:
-        return Intent.DETECTER
-
+    for intent, patterns in ACTION_PATTERNS:
+        for pattern in patterns:
+            if re.search(rf"\b{re.escape(pattern)}\b", text):
+                return intent
     return Intent.UNKNOWN
 
 
 # =========================
-# EXTRACTION VALEUR
+# EXTRACTION VALEUR + UNITE
 # =========================
 def extract_value_and_unit(text: str):
-    match = re.search(r"(\d+(?:[\.,]\d+)?)\s*(\w+)?", text)
+    match = re.search(
+        r"(\d+(?:[\.,]\d+)?)\s*(m|metre|metres|cm|centimetre|centimetres|degre|degres|s|sec|seconde|secondes)?\b",
+        text
+    )
 
     if not match:
         return None, None
@@ -120,52 +126,56 @@ def extract_value_and_unit(text: str):
 
 
 # =========================
-# EXTRACTION COULEUR (OPTION OBJECTIF)
+# EXTRACTION COULEUR
 # =========================
-def extract_target_color(text: str) -> Optional[str]:
+def extract_color(text: str) -> Optional[str]:
     for color in COLOR_ALIASES:
-        if re.search(rf"\b{color}\b", text):
+        if re.search(rf"\b{re.escape(color)}\b", text):
             return COLOR_ALIASES[color]
     return None
 
 
 # =========================
+# CONVERSION
+# =========================
+def convert_value(value: float, unit: Optional[str]):
+    if value is None:
+        return None, None
+
+    if unit == "cm":
+        return value / 100.0, "m"
+
+    return value, unit
+
+
+# =========================
 # VALIDATION
 # =========================
-def validate(cmd: Command) -> Command:
+def validate_command(cmd: Command) -> Command:
 
     if cmd.intent == Intent.UNKNOWN:
         cmd.error = "Commande inconnue"
         return cmd
 
-    # STOP
     if cmd.intent == Intent.STOP:
         cmd.valid = True
         return cmd
 
-    # AVANCER / RECULER
     if cmd.intent in {Intent.AVANCER, Intent.RECULER}:
-
         if cmd.value is None:
             cmd.value = 1.0
-
-        if cmd.unit == "cm":
-            cmd.value /= 100
-            cmd.unit = "m"
-
         if cmd.unit is None:
             cmd.unit = "m"
+
+        cmd.value, cmd.unit = convert_value(cmd.value, cmd.unit)
 
         if not (0 < cmd.value <= 5):
             cmd.error = "Distance doit être entre 0 et 5 mètres"
             return cmd
 
-    # ROTATION
     if cmd.intent in {Intent.TOURNER_GAUCHE, Intent.TOURNER_DROITE}:
-
         if cmd.value is None:
-            cmd.value = 90
-
+            cmd.value = 90.0
         if cmd.unit is None:
             cmd.unit = "deg"
 
@@ -173,62 +183,70 @@ def validate(cmd: Command) -> Command:
             cmd.error = "Angle doit être entre 0 et 360 degrés"
             return cmd
 
-    # DETECTER
-    if cmd.intent == Intent.DETECTER:
-        # ici pas obligatoire d'avoir une couleur
-        pass
+    if cmd.intent == Intent.DETECTER_COULEUR and cmd.color is None:
+        cmd.color = "ANY"
 
     cmd.valid = True
     return cmd
 
 
 # =========================
-# PIPELINE PRINCIPAL
+# PARSER UNIQUE (inchangé)
 # =========================
 def parse_command(text: str) -> Command:
-
     normalized = normalize_text(text)
 
     intent = detect_intent(normalized)
     value, unit = extract_value_and_unit(normalized)
-    color = extract_target_color(normalized)
+    color = extract_color(normalized)
 
     cmd = Command(
         intent=intent,
         value=value,
         unit=unit,
-        target_color=color,
+        color=color,
         raw_text=text,
-        normalized_text=normalized
+        normalized_text=normalized,
     )
 
-    return validate(cmd)
+    return validate_command(cmd)
 
 
 # =========================
-# FORMAT ROBOT (IMPORTANT)
+# 🔥 NOUVEAU : MULTI COMMANDES → LISTE DE DICTS
 # =========================
-def command_to_robot_payload(cmd: Command) -> dict:
+def parse_to_robot_actions(text: str) -> List[dict]:
 
-    if not cmd.valid:
-        return {"ok": False, "error": cmd.error}
+    parts = re.split(r"\b(puis|et|ensuite)\b|,", normalize_text(text))
 
-    payload = {
-        "ok": True,
-        "intent": cmd.intent.value
-    }
+    actions = []
 
-    if cmd.value is not None:
-        payload["value"] = cmd.value
+    for part in parts:
+        part = part.strip()
 
-    if cmd.unit is not None:
-        payload["unit"] = cmd.unit
+        if not part or part in {"puis", "et", "ensuite"}:
+            continue
 
-    if cmd.target_color is not None:
-        payload["target_color"] = cmd.target_color  # 👈 IMPORTANT
+        cmd = parse_command(part)
 
-    return payload
+        if not cmd.valid:
+            actions.append({"ok": False, "error": cmd.error, "raw": part})
+            continue
 
+        actions.append({
+            "ok": True,
+            "intent": cmd.intent.value,
+            "value": cmd.value,
+            "unit": cmd.unit,
+            "target_color": cmd.color
+        })
+
+    return actions
+
+
+# =========================
+# TEST
+# =========================
 
 def interactive_demo():
     print("Tape une commande ('quit' pour quitter)")
@@ -240,11 +258,11 @@ def interactive_demo():
             break
 
         cmd = parse_command(text)
-        payload = command_to_robot_payload(cmd)
+        payload = parse_to_robot_actions(text)
 
         print("Parsed:", cmd)
         print("Payload:", payload)
 
-
 if __name__ == "__main__":
     interactive_demo()
+
