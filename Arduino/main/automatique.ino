@@ -45,6 +45,47 @@ void mode_manuel(char bouton, int trig_fwd, int echo_fwd) {
     }
 }
 
+void mode_requetes(String commande) {
+  commande.trim();
+  if (commande.length() == 0) return;
+
+  char buffer[commande.length() + 1];
+  commande.toCharArray(buffer, sizeof(buffer));
+
+  char* bloc = strtok(buffer, " ");
+
+  while (bloc != NULL) {
+    char* intention = strtok(bloc, ",");
+    char* valeurStr = strtok(NULL, ",");
+
+    if (intention != NULL && valeurStr != NULL) {
+      int valeur = atoi(valeurStr);
+      
+      Serial.print("Action recue : "); Serial.println(intention);
+
+      if (strcmp(intention, "AVANCER") == 0) {
+        avancer();
+        delay(valeur * 1000); // valeur est en secondes ici (ex: 2 = 2s)
+        stopMoteurs();
+      } 
+      else if (strcmp(intention, "TOURNER") == 0) {
+        if (valeur > 0) droite(); else gauche();
+        delay(500); // Temps fixe pour un virage ou proportionnel
+        stopMoteurs();
+      }
+      else if (strcmp(intention, "STOP") == 0) {
+        stopMoteurs();
+      }
+    }
+    // Très important : passer au bloc suivant
+    bloc = strtok(NULL, " ");
+  }
+  
+  // Sécurité finale : on s'assure que tout est coupé après la séquence
+  stopMoteurs();
+  Serial.println("Fin de sequence");
+}
+
 void avancer(){
   set_speed(V_DROIT);
   motor1.run(FORWARD);      

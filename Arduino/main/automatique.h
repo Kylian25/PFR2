@@ -10,6 +10,7 @@ extern int mode;
 
 void mode_auto(int trig_fwd, int echo_fwd, int trig_right, int echo_right);
 void mode_manuel(char bouton, int trig_fwd, int echo_fwd);
+void mode_requetes(String commande);
 void avancer();
 void reculer();
 void gauche();
