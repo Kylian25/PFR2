@@ -1,0 +1,81 @@
+from rplidar import RPLidar 
+import time
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+lidar = RPLidar('COM4')
+
+time.sleep(1)
+lidar.clean_input()
+
+
+health = lidar.get_health()
+info = lidar.get_info()
+print(f"Informations : {info}")
+print(f"Etat : {health[0]}")
+
+def recup_donnees_lidar_temps(lidar, temps):
+    data = []
+    tps_debut = time.time()
+    scans = lidar.iter_scans('normal', 1200, 50)
+
+    for scan in scans:
+        data.append(scan)
+
+        tps_actuel = time.time()
+        if tps_actuel-tps_debut >= temps:
+            print("fin de capture")
+            break
+
+    return data
+
+def recup_donnes_lidar_tours(lidar, nb_tours):
+
+    time.sleep(1)
+    lidar.clean_input()
+    data = []
+    scans = lidar.iter_scans('normal', 1200, 100)
+
+    for scan in scans:
+        data.append(scan)
+        if len(data)>nb_tours:
+            print("fin de Capture")
+            break
+
+    return data
+
+def extraire_donnees(data):
+    quality = []
+    angle = []
+    dist = []
+    for i in range (len(data)):
+        quality.append(data[i][0])
+        angle.append(data[i][1])
+        dist.append(data[i][2])
+    return np.array(quality), np.array(angle), np.array(dist)
+
+data_tours = recup_donnes_lidar_tours(lidar, 5)
+print(f"Nombre de tours : {len(data_tours)}")
+print(data_tours[0][0])
+
+liste_donnees = [tuple for liste in data_tours for tuple in liste]
+print("nombre de capture : ",len(liste_donnees))
+print(liste_donnees)
+
+qualite, angle, dist = extraire_donnees(liste_donnees)
+
+
+# Affichage 
+angle_rad = np.radians(angle)
+fig = plt.figure(figsize=(8,8))
+ax = fig.add_subplot(111, projection='polar')
+scatter = ax.scatter(angle_rad, dist,c=qualite, cmap='hsv', s=8)
+
+ax.set_theta_zero_location('N')
+ax.set_theta_direction(-1)
+plt.show()
+
+lidar.stop()
+lidar.stop_motor()
+lidar.disconnect()
