@@ -64,14 +64,14 @@ void mode_requetes(String commande) {
 
       if (strcmp(intention, "AVANCER") == 0) {
         avancer();
-        finActionMillis = millis() + (valeur * 1000);
+        finActionMillis = millis() + (valeur * 1720);
         actionEnCours = true;
         // ON NE MET PAS stopMoteurs() ICI
       } 
       else if (strcmp(intention, "TOURNER") == 0) {
         if (valeur > 0) droite(); else gauche();
         // Pour le virage, on peut garder un petit delay ou utiliser la même logique millis
-        finActionMillis = millis() + 500; // Exemple 500ms pour tourner
+        finActionMillis = millis() + 900; // Exemple 500ms pour tourner
         actionEnCours = true;
       }
       else if (strcmp(intention, "STOP") == 0) {
