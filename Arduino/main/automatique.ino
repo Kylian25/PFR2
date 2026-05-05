@@ -60,30 +60,29 @@ void mode_requetes(String commande) {
 
     if (intention != NULL && valeurStr != NULL) {
       int valeur = atoi(valeurStr);
-      
       Serial.print("Action recue : "); Serial.println(intention);
 
       if (strcmp(intention, "AVANCER") == 0) {
         avancer();
-        delay(valeur * 1000); // valeur est en secondes ici (ex: 2 = 2s)
-        stopMoteurs();
+        finActionMillis = millis() + (valeur * 1000);
+        actionEnCours = true;
+        // ON NE MET PAS stopMoteurs() ICI
       } 
       else if (strcmp(intention, "TOURNER") == 0) {
         if (valeur > 0) droite(); else gauche();
-        delay(500); // Temps fixe pour un virage ou proportionnel
-        stopMoteurs();
+        // Pour le virage, on peut garder un petit delay ou utiliser la même logique millis
+        finActionMillis = millis() + 500; // Exemple 500ms pour tourner
+        actionEnCours = true;
       }
       else if (strcmp(intention, "STOP") == 0) {
         stopMoteurs();
+        actionEnCours = false;
       }
     }
-    // Très important : passer au bloc suivant
     bloc = strtok(NULL, " ");
   }
-  
-  // Sécurité finale : on s'assure que tout est coupé après la séquence
-  stopMoteurs();
-  Serial.println("Fin de sequence");
+  // SURTOUT : Supprime le stopMoteurs() qui était ici à la fin
+  Serial.println("Sequence enregistree");
 }
 
 void avancer(){
@@ -92,7 +91,11 @@ void avancer(){
   motor2.run(FORWARD);      
   motor3.run(FORWARD);      
   motor4.run(FORWARD);
-  Serial.println('F');
+
+  if (dernierOrdre != 'F'){
+    Serial.println('F');
+    dernierOrdre = 'F';
+  }
 }
 
 void reculer(){
@@ -101,7 +104,11 @@ void reculer(){
   motor2.run(BACKWARD);
   motor3.run(BACKWARD);
   motor4.run(BACKWARD);
-  Serial.println('B');
+    
+  if (dernierOrdre != 'B') {
+    Serial.println('B');
+    dernierOrdre = 'B';
+  }
 }
 
 void gauche(){
@@ -110,7 +117,11 @@ void gauche(){
   motor2.run(BACKWARD);
   motor3.run(FORWARD);
   motor4.run(FORWARD);
-  Serial.println('L');
+
+  if (dernierOrdre != 'L') {
+    Serial.println('L');
+    dernierOrdre = 'L';
+  }
 }
 
 void droite(){
@@ -119,7 +130,11 @@ void droite(){
   motor2.run(FORWARD);
   motor3.run(BACKWARD);
   motor4.run(BACKWARD);
-  Serial.println('R');
+    
+  if (dernierOrdre != 'R') {
+    Serial.println('R');
+    dernierOrdre = 'R';
+  }
 }
 
 void stopMoteurs(){
@@ -127,7 +142,11 @@ void stopMoteurs(){
   motor2.run(RELEASE);
   motor3.run(RELEASE);
   motor4.run(RELEASE);
-  Serial.println('S');
+
+  if (dernierOrdre != 'S') {
+    Serial.println('S');
+    dernierOrdre = 'S';
+  }
 }
 
 void set_speed(int speed){

@@ -32,7 +32,7 @@ def lecture_continue():
                 line = ser.readline().decode('utf-8', errors='ignore').strip()
                 sys.stdout.write('\r' + ' ' * 60 + '\r') 
                 print(f"Réponse: {line}")
-                sys.stdout.write("Entrez une commande : ")
+                sys.stdout.write("> ")
                 sys.stdout.flush()
             except:
                 pass
@@ -52,24 +52,38 @@ def envoyer_sequence_dictionnaires(liste_commandes):
 try:
     while True:
         print("\n--- Menu ---")
-        print("1. Envoyer commande manuelle")
+        print("1. Passer en mode Requêtes ('r')")
         print("2. Envoyer séquence test (Dictionnaires)")
-        choix = input("Votre choix : ")
+        print("A. Passer en mode Automatique ('A')")
+        print("W. Passer en mode Manuel ('w')")
+        
+        # On supprime les espaces inutiles avec .strip()
+        choix = input("Votre choix : ").strip()
 
         if choix == '1':
+            ser.write(b'r')
+            print("\n-> Ordre envoyé : Mode Requêtes")
             cmd = input("Entrez la commande : ")
             cmd = text.parse_to_robot_actions(cmd)
             if cmd:
                 envoyer_sequence_dictionnaires(cmd)
         
         elif choix == '2':
-            # Exemple de la liste demandée
             ma_liste = [
                 {"ok": True, "intent": "AVANCER", "value": 2},
                 {"ok": True, "intent": "TOURNER", "value": 90},
                 {"ok": False, "intent": "STOP", "value": 0}
             ]
             envoyer_sequence_dictionnaires(ma_liste)
+            
+        elif choix.upper() == 'A':
+            ser.write(b'@')
+            print("\n-> Ordre envoyé : Mode Automatique")
+            
+        elif choix.upper() == 'W':
+            ser.write(b'w')
+            print("\n-> Ordre envoyé : Mode Manuel")
+
 except KeyboardInterrupt:
     print("\nFermeture...")
 finally:
