@@ -13,6 +13,7 @@ class Intent(Enum):
     TOURNER_DROITE = "TOURNER_DROITE"
     DETECTER_COULEUR = "DETECTER_COULEUR"
     STOP = "STOP"
+    ZIGZAG = "ZIGZAG"
 
 
 @dataclass
@@ -76,6 +77,10 @@ ACTION_PATTERNS = [
         "forward", "go forward", "move forward",
         "go straight", "move ahead", "continue"
     ]),
+    
+    (Intent.ZIGZAG, ["zigzag", "faire zigzag"
+]),
+
 ]
 
 
@@ -212,9 +217,38 @@ def parse_command(text: str) -> Command:
     return validate_command(cmd)
 
 
+def expand_special_intent(cmd: Command, repetitions: int = 6, step: float = 0.5):
+    actions = []
+
+    if cmd.intent == Intent.ZIGZAG:
+        for i in range(repetitions):
+            actions.append({
+                "ok": True,
+                "intent": Intent.AVANCER.value,
+                "value": step,
+                "unit": "m",
+                "target_color": None
+            })
+            actions.append({
+                "ok": True,
+                "intent": Intent.TOURNER_GAUCHE.value if i % 2 == 0 else Intent.TOURNER_DROITE.value,
+                "value": 90.0,
+                "unit": "deg",
+                "target_color": None
+            })
+    else:
+        actions.append({
+            "ok": True,
+            "intent": cmd.intent.value,
+            "value": cmd.value,
+            "unit": cmd.unit,
+            "target_color": cmd.color
+        })
+
+    return actions
+
 def parse_to_robot_actions(text: str) -> List[dict]:
     normalized = normalize_text(text)
-
     parts = re.split(r"\b(?:puis|ensuite|et|then|and)\b|,", normalized)
 
     actions = []
@@ -227,6 +261,13 @@ def parse_to_robot_actions(text: str) -> List[dict]:
 
         cmd = parse_command(part)
 
+        # Si c'est une intention spéciale, on l'expanse et on ne fait pas le reste
+        if cmd.intent in {Intent.ZIGZAG}:  # <- ici tu peux mettre toutes les intentions spéciales
+            special_actions = expand_special_intent(cmd)
+            actions.extend(special_actions)
+            continue  # on passe à la partie suivante
+
+        # Si l'intention est inconnue mais qu'on a un last_intent, on l'utilise
         if cmd.intent == Intent.UNKNOWN and last_intent is not None:
             value, unit = extract_value_and_unit(part)
 
@@ -239,6 +280,7 @@ def parse_to_robot_actions(text: str) -> List[dict]:
             )
             cmd = validate_command(cmd)
 
+        # Ajouter la commande classique
         if cmd.valid:
             last_intent = cmd.intent
             actions.append({
@@ -256,6 +298,8 @@ def parse_to_robot_actions(text: str) -> List[dict]:
             })
 
     return actions
+
+
 
 def interactive_demo():
     print("Tape une commande ('quit' pour quitter)")
