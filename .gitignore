@@ -5,3 +5,7 @@ out/
 bin/
 *.exe
 _pycache_/
+.vscode/
+_pypackages_/
+.env/
+.venv/
