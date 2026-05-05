@@ -4,3 +4,4 @@ vcpkg/
 out/
 bin/
 *.exe
+_pycache_/
