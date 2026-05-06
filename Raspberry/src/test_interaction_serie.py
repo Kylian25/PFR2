@@ -22,6 +22,8 @@ except Exception as e:
     print(f"Erreur : {e}")
     sys.exit()
 
+robot_occupe = threading.Event()
+
 # --- LECTURE  ---
 def lecture_continue():
     while True:
@@ -32,6 +34,10 @@ def lecture_continue():
                 line = ser.readline().decode('utf-8', errors='ignore').strip()
                 sys.stdout.write('\r' + ' ' * 60 + '\r') 
                 print(f"Réponse: {line}")
+
+                if "SEQUENCE_TERMINEE" in line:
+                        robot_occupe.set()
+                
                 sys.stdout.write("> ")
                 sys.stdout.flush()
             except:
@@ -45,8 +51,14 @@ def envoyer_sequence_dictionnaires(liste_commandes):
     elements = [f"{d['intent']},{d['value']}" for d in liste_commandes if d['ok']]
     if elements:
         payload = " ".join(elements) + "\n"
+        robot_occupe.clear()
+        
         ser.write(payload.encode('utf-8'))
         print(f"Envoyé : {payload.strip()}")
+        
+        print("En attente de la fin de la séquence...")
+        robot_occupe.wait()
+        print("Séquence terminée ! Retour au menu.")
 
 # --- BOUCLE PRINCIPALE ---
 try:
@@ -57,7 +69,6 @@ try:
         print("A. Passer en mode Automatique ('A')")
         print("W. Passer en mode Manuel ('w')")
         
-        # On supprime les espaces inutiles avec .strip()
         choix = input("Votre choix : ").strip()
 
         if choix == '1':

@@ -22,6 +22,16 @@ unsigned long finActionMillis = 0;
 bool actionEnCours = false;
 char dernierOrdre = 'S';
 
+struct Action {
+  char intention[20];
+  int valeur;
+};
+
+#define MAX_ACTIONS 15
+Action fileActions[MAX_ACTIONS];
+int totalActions = 0;
+int actionCouranteIndex = 0;
+
 void setup() {
   Serial.begin(38400); 
   Serial3.begin(38400);
@@ -47,53 +57,93 @@ void setup() {
 }
 
 void loop() {
-  // --- GESTION DES COMMANDES (SERIAL & SERIAL3) ---
   if (Serial.available() > 0 || Serial3.available() > 0) {
-    // On récupère le caractère, peu importe d'où il vient
     char c;
     if (Serial.available() > 0) c = Serial.read();
     else c = Serial3.read();
 
-    // --- LOGIQUE DE CHANGEMENT DE MODE (PRIORITAIRE) ---
-    if (c == '@' || c == 'W') { // 'A' pour Auto, 'W' pour Auto via Serial3
+    if (c == '@' || c == 'W') {
       mode = 0;
       Serial.println("Passage en mode automatique");
     }
-    else if (c == 'w') { // 'w' pour Manuel
+    else if (c == 'w') {
       mode = 1;
       stopMoteurs();
       Serial.println("Passage en mode manuel");
     }
-    else if (c == 'r') { // 'r' pour Requêtes
+    else if (c == 'r') {
       mode = 2;
       stopMoteurs();
       Serial.println("Passage en mode requetes");
     }
-    // --- LOGIQUE SPECIFIQUE AUX MODES ---
     else {
       if (mode == 1) {
         mode_manuel(c, trig_fwd, echo_fwd);
       }
       else if (mode == 2) {
-        // Si on est en mode 2 et que ce n'est pas un changement de mode, 
-        // c'est le début d'une chaîne de caractères (String)
-        // On reconstruit la String à partir du premier caractère déjà lu 'c'
         String commande = String(c) + Serial.readStringUntil('\n');
         mode_requetes(commande);
-        while(Serial.available() > 0) Serial.read(); // Vidage
+        while(Serial.available() > 0) Serial.read();
       }
     }
   }
 
-  // --- EXECUTION DES MODES ---
   if (mode == 0) {
     mode_auto(trig_fwd, echo_fwd, trig_right, echo_right);
   }
   
-  if (mode == 2 && actionEnCours) {
-    if (millis() >= finActionMillis) {
-      stopMoteurs();
-      actionEnCours = false;
+  if (mode == 2) {
+    if (actionEnCours) {
+      if (millis() >= finActionMillis) {
+        stopMoteurs();
+        actionEnCours = false;
+        actionCouranteIndex++;
+        delay(100);
+      }
+    } 
+    else {
+      if (actionCouranteIndex < totalActions) {
+        char* intention = fileActions[actionCouranteIndex].intention;
+        int valeur = fileActions[actionCouranteIndex].valeur;
+
+        Serial.print("Execution : "); Serial.println(intention);
+
+        bool actionReconnue = true;
+
+        if (strcmp(intention, "AVANCER") == 0) {
+          avancer();
+          finActionMillis = millis() + ((unsigned long)valeur * 1720); 
+        }
+        else if (strcmp(intention,"RECULER") == 0){
+          reculer();
+          finActionMillis = millis() + ((unsigned long)valeur * 1720);
+        }
+        else if (strcmp(intention, "TOURNER_GAUCHE") == 0) {
+          gauche();
+          finActionMillis = millis() + ((unsigned long)valeur * 10);
+        }
+        else if (strcmp(intention, "TOURNER_DROITE") == 0 || strcmp(intention, "TOURNER") == 0) {
+          droite();
+          finActionMillis = millis() + ((unsigned long)valeur * 10);
+        }
+        else if (strcmp(intention, "STOP") == 0) {
+          stopMoteurs();
+          finActionMillis = millis() + ((unsigned long)valeur * 1000);
+        }
+        else {
+          actionReconnue = false;
+        }
+
+        if (actionReconnue) {
+          actionEnCours = true;
+        } else {
+          actionCouranteIndex++;
+        }
+      } 
+      else if (totalActions > 0 && actionCouranteIndex == totalActions) {
+        Serial.println("SEQUENCE_TERMINEE");
+        totalActions = 0;
+      }
     }
   }
 }

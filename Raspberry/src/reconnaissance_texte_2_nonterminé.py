@@ -41,7 +41,6 @@ ACTION_PATTERNS = [
         "analyse la couleur", "quelle couleur",
         "detecte l objet",
 
-        # EN
         "detect color", "find color", "identify color",
         "what color", "scan color", "recognize color"
     ]),
@@ -50,7 +49,6 @@ ACTION_PATTERNS = [
         "tourne a gauche", "tourner a gauche",
         "va a gauche", "pivote a gauche",
 
-        # EN
         "turn left", "go left", "rotate left"
     ]),
 
@@ -58,14 +56,12 @@ ACTION_PATTERNS = [
         "tourne a droite", "tourner a droite",
         "va a droite", "pivote a droite", "tourne",
 
-        # EN
         "turn right", "go right", "rotate right", "turn"
     ]),
 
     (Intent.RECULER, [
         "recule", "reculer",
 
-        # EN
         "back", "backward", "go back", "move back"
     ]),
 
@@ -73,7 +69,6 @@ ACTION_PATTERNS = [
         "avance", "avancer", "va tout droit",
         "continue",
 
-        # EN
         "forward", "go forward", "move forward",
         "go straight", "move ahead", "continue"
     ]),
@@ -261,13 +256,11 @@ def parse_to_robot_actions(text: str) -> List[dict]:
 
         cmd = parse_command(part)
 
-        # Si c'est une intention spéciale, on l'expanse et on ne fait pas le reste
-        if cmd.intent in {Intent.ZIGZAG}:  # <- ici tu peux mettre toutes les intentions spéciales
+        if cmd.intent in {Intent.ZIGZAG}:
             special_actions = expand_special_intent(cmd)
             actions.extend(special_actions)
-            continue  # on passe à la partie suivante
+            continue
 
-        # Si l'intention est inconnue mais qu'on a un last_intent, on l'utilise
         if cmd.intent == Intent.UNKNOWN and last_intent is not None:
             value, unit = extract_value_and_unit(part)
 
@@ -280,7 +273,6 @@ def parse_to_robot_actions(text: str) -> List[dict]:
             )
             cmd = validate_command(cmd)
 
-        # Ajouter la commande classique
         if cmd.valid:
             last_intent = cmd.intent
             actions.append({

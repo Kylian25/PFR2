@@ -52,37 +52,29 @@ void mode_requetes(String commande) {
   char buffer[commande.length() + 1];
   commande.toCharArray(buffer, sizeof(buffer));
 
+  totalActions = 0;
+  actionCouranteIndex = 0;
+  actionEnCours = false;
+
   char* bloc = strtok(buffer, " ");
 
-  while (bloc != NULL) {
-    char* intention = strtok(bloc, ",");
-    char* valeurStr = strtok(NULL, ",");
+  while (bloc != NULL && totalActions < MAX_ACTIONS) {
+    char* virgule = strchr(bloc, ',');
+    
+    if (virgule != NULL) {
+      *virgule = '\0';
+      char* intention = bloc;
+      char* valeurStr = virgule + 1;
 
-    if (intention != NULL && valeurStr != NULL) {
-      int valeur = atoi(valeurStr);
-      Serial.print("Action recue : "); Serial.println(intention);
-
-      if (strcmp(intention, "AVANCER") == 0) {
-        avancer();
-        finActionMillis = millis() + (valeur * 1720);
-        actionEnCours = true;
-        // ON NE MET PAS stopMoteurs() ICI
-      } 
-      else if (strcmp(intention, "TOURNER") == 0) {
-        if (valeur > 0) droite(); else gauche();
-        // Pour le virage, on peut garder un petit delay ou utiliser la même logique millis
-        finActionMillis = millis() + 900; // Exemple 500ms pour tourner
-        actionEnCours = true;
-      }
-      else if (strcmp(intention, "STOP") == 0) {
-        stopMoteurs();
-        actionEnCours = false;
-      }
+      strncpy(fileActions[totalActions].intention, intention, 19);
+      fileActions[totalActions].valeur = atoi(valeurStr);
+      totalActions++;
     }
     bloc = strtok(NULL, " ");
   }
-  // SURTOUT : Supprime le stopMoteurs() qui était ici à la fin
-  Serial.println("Sequence enregistree");
+  
+  Serial.print("Sequence enregistree. Actions : ");
+  Serial.println(totalActions);
 }
 
 void avancer(){
