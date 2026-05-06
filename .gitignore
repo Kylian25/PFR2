@@ -4,8 +4,8 @@ vcpkg/
 out/
 bin/
 *.exe
-_pycache_/
+__pycache__/
 .vscode/
-_pypackages_/
+__pypackages__/
 .env/
 .venv/

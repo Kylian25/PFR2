@@ -331,14 +331,18 @@ def execute_actions(actions):
 
 
 if __name__ == "__main__":
-    print("Tape une commande ('quit' pour quitter)")
-    while True:
-        text = input(">> ")
+    #print("Tape une commande ('quit' pour quitter)")
+    try:
+        while True:
+            text = sys.stdin.readline().strip()
+            print("requete recue", file=sys.stderr, flush=True)
 
-        if text.lower() in {"quit", "exit"}:
-            break
+            if text.lower() in {"quit", "exit"}:
+                break
 
-        payload = parse_to_robot_actions(text)
-        print("Payload:", payload)
+            payload = parse_to_robot_actions(text)
+            print(payload, flush=True)
 
-        execute_actions(payload)
+            execute_actions(payload)
+    except Exception as e:
+        print(f"[ERREUR][Requete] {e}", file=sys.stderr, flush=True)
