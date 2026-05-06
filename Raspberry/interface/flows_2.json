@@ -1,0 +1,2007 @@
+[
+    {
+        "id": "b9abb7620754b685",
+        "type": "tab",
+        "label": "Dashboard",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "deda5b3c0478186e",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "acbf278639abd46e",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#000000",
+            "primary": "#5dc08d",
+            "bgPage": "#000000",
+            "groupBg": "#000000",
+            "groupOutline": "#027971"
+        },
+        "sizes": {
+            "density": "comfortable",
+            "pagePadding": "10px",
+            "groupGap": "8px",
+            "groupBorderRadius": "8px",
+            "widgetGap": "8px"
+        }
+    },
+    {
+        "id": "bb2fb6ba81c9a143",
+        "type": "ui-page",
+        "name": "Dashboard robot",
+        "ui": "deda5b3c0478186e",
+        "path": "/page1",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "acbf278639abd46e",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "dd15d6c1cca8d2eb",
+        "type": "ui-group",
+        "name": "Télémétrie",
+        "page": "bb2fb6ba81c9a143",
+        "width": 8,
+        "height": "3",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "5badc6eeb7c158e7",
+        "type": "ui-group",
+        "name": "Requêtes",
+        "page": "bb2fb6ba81c9a143",
+        "width": 4,
+        "height": "8",
+        "order": 6,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "83b591405cbd332e",
+        "type": "ui-group",
+        "name": "Controle dashboard",
+        "page": "bb2fb6ba81c9a143",
+        "width": "12",
+        "height": 1,
+        "order": 1,
+        "showTitle": false,
+        "className": "row-center",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "34e5315cc6557122",
+        "type": "ui-group",
+        "name": "Logs",
+        "page": "bb2fb6ba81c9a143",
+        "width": 4,
+        "height": "5",
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "efb2eaa3d05721e5",
+        "type": "ui-group",
+        "name": "Lidar",
+        "page": "bb2fb6ba81c9a143",
+        "width": "4",
+        "height": "4",
+        "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "17c66d9534a2c647",
+        "type": "ui-group",
+        "name": "Caméra",
+        "page": "bb2fb6ba81c9a143",
+        "width": "4",
+        "height": "4",
+        "order": 5,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "81f7d057c5b0bb41",
+        "type": "ui-page",
+        "name": "Tests",
+        "ui": "deda5b3c0478186e",
+        "path": "/page2",
+        "icon": "home",
+        "layout": "flex",
+        "theme": "acbf278639abd46e",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "ddf310ac06a2f288",
+        "type": "ui-group",
+        "name": "tests",
+        "page": "81f7d057c5b0bb41",
+        "width": 18,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "97509d3d0418a091",
+        "type": "ui-group",
+        "name": "Group Name",
+        "page": "81f7d057c5b0bb41",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "fff2eddbb51cae8d",
+        "type": "ui-chart",
+        "z": "b9abb7620754b685",
+        "d": true,
+        "group": "dd15d6c1cca8d2eb",
+        "name": "Moteurs gauches",
+        "label": "",
+        "order": 1,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "rect",
+        "pointRadius": "3",
+        "showLegend": false,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "20",
+        "colors": [
+            "#00c8ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#505050"
+        ],
+        "gridColorDefault": false,
+        "width": 4,
+        "height": "4",
+        "className": "",
+        "interpolation": "linear",
+        "x": 770,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "75fe24447e232a7b",
+        "type": "function",
+        "z": "b9abb7620754b685",
+        "name": "Val",
+        "func": "msg.payload = Math.random();\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 160,
+        "wires": [
+            [
+                "62b779713a893704"
+            ]
+        ]
+    },
+    {
+        "id": "5daebdf24042a87d",
+        "type": "inject",
+        "z": "b9abb7620754b685",
+        "name": "message",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 160,
+        "wires": [
+            [
+                "75fe24447e232a7b",
+                "928bfc6a939abbc5",
+                "6d8fa70547bd574e",
+                "5c316f3c10659ab0"
+            ]
+        ]
+    },
+    {
+        "id": "58597ec402a9d931",
+        "type": "ui-button",
+        "z": "b9abb7620754b685",
+        "group": "83b591405cbd332e",
+        "name": "Reset dashboard",
+        "label": "Reset dashboard",
+        "order": 1,
+        "width": 8,
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "row-center",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "[INFO] Courbes du dashboard réinitialisées",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 170,
+        "y": 60,
+        "wires": [
+            [
+                "e60b979376495166",
+                "4e554c85ed638361"
+            ]
+        ]
+    },
+    {
+        "id": "e60b979376495166",
+        "type": "change",
+        "z": "b9abb7620754b685",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "[]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 60,
+        "wires": [
+            [
+                "fff2eddbb51cae8d",
+                "f1ec73d231f054ce",
+                "0b03e1b4d0b139d8",
+                "26c9a3683f7729b9",
+                "3d3d822b5ce7b580"
+            ]
+        ]
+    },
+    {
+        "id": "f1ec73d231f054ce",
+        "type": "ui-chart",
+        "z": "b9abb7620754b685",
+        "d": true,
+        "group": "dd15d6c1cca8d2eb",
+        "name": "Moteurs droits",
+        "label": "",
+        "order": 2,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "rect",
+        "pointRadius": "3",
+        "showLegend": false,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "20",
+        "colors": [
+            "#00c8ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#505050"
+        ],
+        "gridColorDefault": false,
+        "width": 4,
+        "height": "4",
+        "className": "",
+        "interpolation": "linear",
+        "x": 760,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "26c9a3683f7729b9",
+        "type": "ui-gauge",
+        "z": "b9abb7620754b685",
+        "name": "Gauge droite",
+        "group": "dd15d6c1cca8d2eb",
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 4,
+        "height": "3",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Gauche",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#00c8ff",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "1",
+                "color": "#00c8ff",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "2",
+                "color": "#00c8ff",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 770,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0b03e1b4d0b139d8",
+        "type": "ui-gauge",
+        "z": "b9abb7620754b685",
+        "name": "Gauge gauche",
+        "group": "dd15d6c1cca8d2eb",
+        "order": 4,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 4,
+        "height": "3",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Droite",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#00c8ff",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "1",
+                "color": "#00c8ff",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "2",
+                "color": "#00c8ff",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 780,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "62b779713a893704",
+        "type": "range",
+        "z": "b9abb7620754b685",
+        "minin": "0",
+        "maxin": "1",
+        "minout": "0",
+        "maxout": "100",
+        "action": "scale",
+        "round": true,
+        "property": "payload",
+        "name": "% puissance",
+        "x": 510,
+        "y": 200,
+        "wires": [
+            [
+                "fff2eddbb51cae8d",
+                "0b03e1b4d0b139d8"
+            ]
+        ]
+    },
+    {
+        "id": "928bfc6a939abbc5",
+        "type": "function",
+        "z": "b9abb7620754b685",
+        "name": "Val",
+        "func": "msg.payload = Math.random();\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 260,
+        "wires": [
+            [
+                "731d9970ccf5a8ca"
+            ]
+        ]
+    },
+    {
+        "id": "731d9970ccf5a8ca",
+        "type": "range",
+        "z": "b9abb7620754b685",
+        "minin": "0",
+        "maxin": "1",
+        "minout": "0",
+        "maxout": "100",
+        "action": "scale",
+        "round": true,
+        "property": "payload",
+        "name": "% puissance",
+        "x": 510,
+        "y": 260,
+        "wires": [
+            [
+                "f1ec73d231f054ce",
+                "26c9a3683f7729b9"
+            ]
+        ]
+    },
+    {
+        "id": "6d8fa70547bd574e",
+        "type": "function",
+        "z": "b9abb7620754b685",
+        "name": "US",
+        "func": "msg.payload = Math.random();\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 380,
+        "wires": [
+            [
+                "016a79debd8f69fd"
+            ]
+        ]
+    },
+    {
+        "id": "016a79debd8f69fd",
+        "type": "ui-gauge",
+        "z": "b9abb7620754b685",
+        "name": "Ultrason front",
+        "group": "dd15d6c1cca8d2eb",
+        "order": 6,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 4,
+        "height": "1",
+        "gtype": "gauge-tile",
+        "gstyle": "needle",
+        "title": "AVANT",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "0.5",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "1",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 780,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5c316f3c10659ab0",
+        "type": "function",
+        "z": "b9abb7620754b685",
+        "name": "US",
+        "func": "msg.payload = Math.random();\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 460,
+        "wires": [
+            [
+                "423649efdfb01f23"
+            ]
+        ]
+    },
+    {
+        "id": "423649efdfb01f23",
+        "type": "ui-gauge",
+        "z": "b9abb7620754b685",
+        "name": "Ultrason droite",
+        "group": "dd15d6c1cca8d2eb",
+        "order": 7,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 4,
+        "height": "1",
+        "gtype": "gauge-tile",
+        "gstyle": "needle",
+        "title": "DROITE",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "0.8",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "1",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 780,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ae6ebba4d06a3bfa",
+        "type": "ui-text",
+        "z": "b9abb7620754b685",
+        "group": "dd15d6c1cca8d2eb",
+        "order": 5,
+        "width": "12",
+        "height": "1",
+        "name": "texte US",
+        "label": "Ultrasons",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": true,
+        "font": "",
+        "fontSize": "18",
+        "color": "#ffffff",
+        "wrapText": false,
+        "className": "center",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 540,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "17342f5d558917d0",
+        "type": "ui-button",
+        "z": "b9abb7620754b685",
+        "group": "5badc6eeb7c158e7",
+        "name": "enregistrer",
+        "label": "Enregistrer requête vocale",
+        "order": 3,
+        "width": 4,
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 170,
+        "y": 640,
+        "wires": [
+            [
+                "e0fdab7b91593e63",
+                "6e75ac83a2392950"
+            ]
+        ]
+    },
+    {
+        "id": "e0fdab7b91593e63",
+        "type": "exec",
+        "z": "b9abb7620754b685",
+        "command": "python ",
+        "addpay": "",
+        "append": "\"C:\\Users\\kylia\\Documents\\Cours_UPS\\PFR2\\Interface\\STT_node_red.py\"",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "STT",
+        "x": 350,
+        "y": 640,
+        "wires": [
+            [
+                "e8410c8d240ac8b5"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "e8410c8d240ac8b5",
+        "type": "json",
+        "z": "b9abb7620754b685",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 510,
+        "y": 640,
+        "wires": [
+            [
+                "9d93c3d7b78ba706"
+            ]
+        ]
+    },
+    {
+        "id": "4ad491b31adfc132",
+        "type": "ui-text",
+        "z": "b9abb7620754b685",
+        "group": "5badc6eeb7c158e7",
+        "order": 4,
+        "width": 5,
+        "height": 8,
+        "name": "Requête",
+        "label": "Commande(s) extraite(s) :  ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": true,
+        "font": "Courier,monospace",
+        "fontSize": "20",
+        "color": "#f4ed15",
+        "wrapText": true,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1000,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "9d93c3d7b78ba706",
+        "type": "function",
+        "z": "b9abb7620754b685",
+        "name": "requête vocale",
+        "func": "msg.payload = msg.payload.join(\" \");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 640,
+        "wires": [
+            [
+                "4ad491b31adfc132"
+            ]
+        ]
+    },
+    {
+        "id": "6e75ac83a2392950",
+        "type": "change",
+        "z": "b9abb7620754b685",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 760,
+        "wires": [
+            [
+                "4ad491b31adfc132"
+            ]
+        ]
+    },
+    {
+        "id": "faa43f94c2684ca5",
+        "type": "ui-text-input",
+        "z": "b9abb7620754b685",
+        "group": "5badc6eeb7c158e7",
+        "name": "text request",
+        "label": "Requête textuelle",
+        "order": 2,
+        "width": 4,
+        "height": 2,
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "text",
+        "tooltip": "",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": false,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": true,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 170,
+        "y": 840,
+        "wires": [
+            [
+                "6e75ac83a2392950",
+                "792947963f537662"
+            ]
+        ]
+    },
+    {
+        "id": "c6912a4d33fc78c1",
+        "type": "daemon",
+        "z": "b9abb7620754b685",
+        "name": "LIDAR",
+        "command": "C:\\Users\\kylia\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "args": "C:/Users/kylia/Documents/Cours_UPS/PFR2/Interface/lidar_2_json.py",
+        "autorun": true,
+        "cr": true,
+        "redo": true,
+        "op": "string",
+        "closer": "SIGKILL",
+        "x": 550,
+        "y": 1160,
+        "wires": [
+            [
+                "30d4cfd8578baab6"
+            ],
+            [
+                "d1d69be0edd542b4",
+                "2ed0d5b1d6999aed"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "911fbcaa2c8e0e91",
+        "type": "function",
+        "z": "b9abb7620754b685",
+        "d": true,
+        "name": "buffer lidar",
+        "func": "\nflow.set(\"DernierScan\", msg.payload);\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f77a220d22d8c22f",
+        "type": "inject",
+        "z": "b9abb7620754b685",
+        "name": "Récupérer données",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "scan",
+        "payloadType": "str",
+        "x": 240,
+        "y": 1340,
+        "wires": [
+            [
+                "c6912a4d33fc78c1",
+                "0b153ccf9abd9a12",
+                "e8a18836c0ce8c9c",
+                "6df737aadb41c585",
+                "58994d4ec9179d99"
+            ]
+        ]
+    },
+    {
+        "id": "0b153ccf9abd9a12",
+        "type": "function",
+        "z": "b9abb7620754b685",
+        "name": "Récupérer dernières données",
+        "func": "let points = flow.get(\"DernierScan\") || [];\nmsg.payload = points;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1400,
+        "wires": [
+            [
+                "2ed0d5b1d6999aed"
+            ]
+        ]
+    },
+    {
+        "id": "2ed0d5b1d6999aed",
+        "type": "debug",
+        "z": "b9abb7620754b685",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "a9fe7d1323b46d06",
+        "type": "ui-chart",
+        "z": "b9abb7620754b685",
+        "group": "efb2eaa3d05721e5",
+        "name": "carto lidar",
+        "label": "",
+        "order": 1,
+        "chartType": "area",
+        "category": "points",
+        "categoryType": "str",
+        "xAxisLabel": "AVANT ----->",
+        "xAxisProperty": "x",
+        "xAxisPropertyType": "property",
+        "xAxisType": "linear",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "y",
+        "yAxisPropertyType": "property",
+        "ymin": "-12",
+        "ymax": "12",
+        "bins": 10,
+        "action": "replace",
+        "stackSeries": false,
+        "pointShape": "line",
+        "pointRadius": "4",
+        "showLegend": true,
+        "removeOlder": "5",
+        "removeOlderUnit": "60",
+        "removeOlderPoints": "2000",
+        "colors": [
+            "#cc0044",
+            "#fd1212",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#000000"
+        ],
+        "gridColorDefault": false,
+        "width": "4",
+        "height": 11,
+        "className": "",
+        "interpolation": "smooth",
+        "x": 1140,
+        "y": 1360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4e554c85ed638361",
+        "type": "link out",
+        "z": "b9abb7620754b685",
+        "name": "boutton reset dashboard",
+        "mode": "link",
+        "links": [
+            "2b1e3a5e3ccece29"
+        ],
+        "x": 325,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "30d4cfd8578baab6",
+        "type": "json",
+        "z": "b9abb7620754b685",
+        "d": true,
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 750,
+        "y": 1160,
+        "wires": [
+            [
+                "911fbcaa2c8e0e91"
+            ]
+        ]
+    },
+    {
+        "id": "792947963f537662",
+        "type": "function",
+        "z": "b9abb7620754b685",
+        "name": "2 String",
+        "func": "\n//msg.payload = msg.payload.toString();\nmsg.payload = msg.payload;\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 920,
+        "wires": [
+            [
+                "a8f5ce628b0e3b8e",
+                "7f15a92099688014"
+            ]
+        ]
+    },
+    {
+        "id": "58197d48fa796f0b",
+        "type": "function",
+        "z": "b9abb7620754b685",
+        "d": true,
+        "name": "requête texte",
+        "func": "\nif (msg.payload.includes(\"[INFO]\")) {\n    return null;\n}\nelse{\n    msg.payload = msg.payload.join(\" \");\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 920,
+        "wires": [
+            [
+                "4ad491b31adfc132",
+                "7f15a92099688014"
+            ]
+        ]
+    },
+    {
+        "id": "adfd2f50671ef5e9",
+        "type": "json",
+        "z": "b9abb7620754b685",
+        "name": "",
+        "property": "payload",
+        "action": "str",
+        "pretty": false,
+        "x": 730,
+        "y": 920,
+        "wires": [
+            [
+                "58197d48fa796f0b",
+                "4ad491b31adfc132"
+            ]
+        ]
+    },
+    {
+        "id": "6df737aadb41c585",
+        "type": "file in",
+        "z": "b9abb7620754b685",
+        "name": "scan json",
+        "filename": "C:/Users/kylia/Documents/Cours_UPS/PFR2/Interface/lidar_scan.json",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 880,
+        "y": 1080,
+        "wires": [
+            [
+                "b9c5f44510fbbbdf"
+            ]
+        ]
+    },
+    {
+        "id": "b9c5f44510fbbbdf",
+        "type": "json",
+        "z": "b9abb7620754b685",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 1050,
+        "y": 1080,
+        "wires": [
+            [
+                "462a4b3ddf5d5708",
+                "6e925ed3bbdbdd15",
+                "a9fe7d1323b46d06"
+            ]
+        ]
+    },
+    {
+        "id": "462a4b3ddf5d5708",
+        "type": "function",
+        "z": "b9abb7620754b685",
+        "name": "Récupérer dernières données",
+        "func": "let points = flow.get(\"DernierScan\") || [];\nmsg.payload = points;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1290,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e8a18836c0ce8c9c",
+        "type": "daemon",
+        "z": "b9abb7620754b685",
+        "name": "IMAGE",
+        "command": "python",
+        "args": "C:\\\\Users\\\\kylia\\\\Documents\\\\Cours_UPS\\\\PFR2\\\\Interface\\\\camera.py",
+        "autorun": true,
+        "cr": true,
+        "redo": true,
+        "op": "string",
+        "closer": "SIGKILL",
+        "x": 560,
+        "y": 1480,
+        "wires": [
+            [
+                "33a411db2fc7fc90"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "c5a14213618fcfd7",
+        "type": "image viewer",
+        "z": "b9abb7620754b685",
+        "name": "",
+        "width": "300",
+        "data": "payload",
+        "dataType": "msg",
+        "active": false,
+        "x": 1070,
+        "y": 1540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "33a411db2fc7fc90",
+        "type": "file in",
+        "z": "b9abb7620754b685",
+        "name": "récupérer image",
+        "filename": "C:\\\\Users\\\\kylia\\\\Documents\\\\Cours_UPS\\\\PFR2\\\\Interface\\\\camera\\\\derniere_image.jpg",
+        "filenameType": "str",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "base64",
+        "allProps": false,
+        "x": 740,
+        "y": 1480,
+        "wires": [
+            [
+                "45b39c11700a4ff7"
+            ]
+        ]
+    },
+    {
+        "id": "45b39c11700a4ff7",
+        "type": "base64",
+        "z": "b9abb7620754b685",
+        "name": "",
+        "action": "",
+        "property": "payload",
+        "x": 920,
+        "y": 1480,
+        "wires": [
+            [
+                "3bc2549ff5a44bef",
+                "c5a14213618fcfd7"
+            ]
+        ]
+    },
+    {
+        "id": "3bc2549ff5a44bef",
+        "type": "function",
+        "z": "b9abb7620754b685",
+        "name": "div image",
+        "func": "// On prépare la balise HTML complète\nlet html = \"data:image/jpeg;base64,\";\nhtml += msg.payload; // Ton payload est ici le string Base64 pur\n\n\n// On envoie ce bloc de texte au template\nmsg.payload = html;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1480,
+        "wires": [
+            [
+                "8cb954af4f3d22e7"
+            ]
+        ]
+    },
+    {
+        "id": "8cb954af4f3d22e7",
+        "type": "ui-template",
+        "z": "b9abb7620754b685",
+        "group": "ddf310ac06a2f288",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 1,
+        "width": 4,
+        "height": 10,
+        "head": "",
+        "format": "<template>\n    <div style=\"display: flex; justify-content: center; align-items: center; background: #000; min-height: 200px;\">\n        <img v-if=\"msg?.payload\" :src=\"msg.payload\" style=\"width: 100%; max-width: 640px; height: auto; border: 1px solid #555;\">\n        <div v-else style=\"color: white;\">En attente de l'image...</div>\n    </div>\n</template>\n\n<script>\n    export default {\n        data() {\n            return {\n                // Pas besoin de variables locales ici, msg est injecté automatiquement\n            }\n        }\n    }\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1260,
+        "y": 1480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e9544ea15a4f8aba",
+        "type": "link in",
+        "z": "b9abb7620754b685",
+        "name": "reset in",
+        "links": [
+            "3d3d822b5ce7b580"
+        ],
+        "x": 935,
+        "y": 1360,
+        "wires": [
+            [
+                "a9fe7d1323b46d06"
+            ]
+        ]
+    },
+    {
+        "id": "3c36c421806bbc10",
+        "type": "ui-button",
+        "z": "b9abb7620754b685",
+        "group": "83b591405cbd332e",
+        "name": "Rafraichir lidar & caméra",
+        "label": "Rafraichir Lidar & Caméra",
+        "order": 2,
+        "width": 4,
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "scan",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 230,
+        "y": 1300,
+        "wires": [
+            [
+                "c6912a4d33fc78c1",
+                "e8a18836c0ce8c9c",
+                "0b153ccf9abd9a12",
+                "58994d4ec9179d99"
+            ]
+        ]
+    },
+    {
+        "id": "6e925ed3bbdbdd15",
+        "type": "debug",
+        "z": "b9abb7620754b685",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1240,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "58994d4ec9179d99",
+        "type": "daemon",
+        "z": "b9abb7620754b685",
+        "name": "IMAGE CAM",
+        "command": "python",
+        "args": "C:\\\\Users\\\\kylia\\\\Documents\\\\Cours_UPS\\\\PFR2\\\\Interface\\\\flux_cam.py",
+        "autorun": true,
+        "cr": true,
+        "redo": true,
+        "op": "string",
+        "closer": "SIGKILL",
+        "x": 570,
+        "y": 1640,
+        "wires": [
+            [
+                "824a2d28de47f94e",
+                "403a7b2a7201d28d"
+            ],
+            [
+                "403a7b2a7201d28d",
+                "6aa8bc6d4380dc83"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "88fde18b01de4121",
+        "type": "image viewer",
+        "z": "b9abb7620754b685",
+        "name": "",
+        "width": "300",
+        "data": "payload",
+        "dataType": "msg",
+        "active": false,
+        "x": 1070,
+        "y": 1700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "824a2d28de47f94e",
+        "type": "file in",
+        "z": "b9abb7620754b685",
+        "name": "récupérer image",
+        "filename": "C:\\\\Users\\\\kylia\\\\Documents\\\\Cours_UPS\\\\PFR2\\\\Interface\\\\camera\\\\image_cam.jpg",
+        "filenameType": "str",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "base64",
+        "allProps": false,
+        "x": 760,
+        "y": 1640,
+        "wires": [
+            [
+                "d24f6ccce8969f86"
+            ]
+        ]
+    },
+    {
+        "id": "d24f6ccce8969f86",
+        "type": "base64",
+        "z": "b9abb7620754b685",
+        "name": "",
+        "action": "",
+        "property": "payload",
+        "x": 940,
+        "y": 1640,
+        "wires": [
+            [
+                "fa6e5032e5a674c1",
+                "88fde18b01de4121"
+            ]
+        ]
+    },
+    {
+        "id": "fa6e5032e5a674c1",
+        "type": "function",
+        "z": "b9abb7620754b685",
+        "name": "div image",
+        "func": "// On prépare la balise HTML complète\nlet html = \"data:image/jpeg;base64,\";\nhtml += msg.payload; // Ton payload est ici le string Base64 pur\n\n\n// On envoie ce bloc de texte au template\nmsg.payload = html;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1640,
+        "wires": [
+            [
+                "df7b93ad7b059435"
+            ]
+        ]
+    },
+    {
+        "id": "df7b93ad7b059435",
+        "type": "ui-template",
+        "z": "b9abb7620754b685",
+        "group": "17c66d9534a2c647",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 1,
+        "width": "7",
+        "height": 11,
+        "head": "",
+        "format": "<template>\n    <div style=\"display: flex; justify-content: center; align-items: center; background: #000; min-height: 200px;\">\n        <img v-if=\"msg?.payload\" :src=\"msg.payload\" style=\"width: 100%; max-width: 640px; height: auto; border: 1px solid #555;\">\n        <div v-else style=\"color: white;\">En attente de l'image...</div>\n    </div>\n</template>\n\n<script>\n    export default {\n        data() {\n            return {\n                // Pas besoin de variables locales ici, msg est injecté automatiquement\n            }\n        }\n    }\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1260,
+        "y": 1640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "403a7b2a7201d28d",
+        "type": "debug",
+        "z": "b9abb7620754b685",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "e28aa6989f19a36d",
+        "type": "function",
+        "z": "b9abb7620754b685",
+        "name": "format logs",
+        "func": "\n// 1. Récupération de l'historique\nlet logHistory = context.get('logHistory') || [];\n\n// 2. Sécurisation de l'entrée : on s'assure que c'est du texte \n// et on coupe si c'est trop long (ex: max 1000 caractères par ligne)\nlet rawEntry = String(msg.payload);\nlet cleanEntry = rawEntry.length > 1000 ? rawEntry.substring(0, 1000) + \"...\" : rawEntry;\n\n// 3. Ajout à l'historique\nlogHistory.unshift(cleanEntry);\n\n// 4. Limitation stricte\nif (logHistory.length > 30) {\n    logHistory.pop();\n}\n\n// 5. Sauvegarde\ncontext.set('logHistory', logHistory);\n\n// 6. Construction du message (plus efficace)\nmsg.payload = `<pre style='margin:0; font-size:12px; color:inherit;'>${logHistory.join(\"\\n\")}</pre>`;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 1920,
+        "wires": [
+            [
+                "26c466e801527b68"
+            ]
+        ]
+    },
+    {
+        "id": "2b1e3a5e3ccece29",
+        "type": "link in",
+        "z": "b9abb7620754b685",
+        "name": "logs IN",
+        "links": [
+            "4e554c85ed638361",
+            "6aa8bc6d4380dc83",
+            "90b2787488cac962",
+            "4a0733216a16bdc8"
+        ],
+        "x": 415,
+        "y": 1920,
+        "wires": [
+            [
+                "e28aa6989f19a36d",
+                "1ca3264f0fb69478"
+            ]
+        ]
+    },
+    {
+        "id": "d1d69be0edd542b4",
+        "type": "link out",
+        "z": "b9abb7620754b685",
+        "name": "stderr lidar",
+        "mode": "link",
+        "links": [],
+        "x": 655,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "6aa8bc6d4380dc83",
+        "type": "link out",
+        "z": "b9abb7620754b685",
+        "name": "stderr image cam",
+        "mode": "link",
+        "links": [
+            "2b1e3a5e3ccece29"
+        ],
+        "x": 715,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "26c466e801527b68",
+        "type": "ui-text",
+        "z": "b9abb7620754b685",
+        "group": "34e5315cc6557122",
+        "order": 1,
+        "width": "4",
+        "height": 5,
+        "name": "LOGS",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": true,
+        "font": "Helvetica, sans-serif",
+        "fontSize": "14",
+        "color": "#ebee2b",
+        "wrapText": true,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 730,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "90b2787488cac962",
+        "type": "link out",
+        "z": "b9abb7620754b685",
+        "name": "stderr req texte",
+        "mode": "link",
+        "links": [
+            "2b1e3a5e3ccece29"
+        ],
+        "x": 705,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "1ca3264f0fb69478",
+        "type": "file",
+        "z": "b9abb7620754b685",
+        "name": "écrire logs",
+        "filename": "C:/Users/kylia/Documents/Cours_UPS/PFR2/Interface/logs/logs.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 590,
+        "y": 1980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3d3d822b5ce7b580",
+        "type": "link out",
+        "z": "b9abb7620754b685",
+        "name": "reset",
+        "mode": "link",
+        "links": [
+            "e9544ea15a4f8aba"
+        ],
+        "x": 735,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "7f15a92099688014",
+        "type": "debug",
+        "z": "b9abb7620754b685",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "a8f5ce628b0e3b8e",
+        "type": "exec",
+        "z": "b9abb7620754b685",
+        "command": "python C:/Users/kylia/Documents/Cours_UPS/PFR2/Interface/STT_node_red.py",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "0.1",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Requete",
+        "x": 560,
+        "y": 920,
+        "wires": [
+            [
+                "adfd2f50671ef5e9",
+                "7f15a92099688014"
+            ],
+            [
+                "90b2787488cac962",
+                "7f15a92099688014"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "b851c5f77162e6f3",
+        "type": "function",
+        "z": "b9abb7620754b685",
+        "name": "function 1",
+        "func": "// 1. Récupération de l'historique (stocké localement dans le nœud)\nlet logHistory = context.get('logHistory') || [];\n\nlet newEntry = `${msg.payload}`;\n\nlogHistory.unshift(newEntry);\n\nif (logHistory.length > 30) {\n    logHistory.pop();\n}\n\ncontext.set('logHistory', logHistory);\n\nmsg.payload = \"<pre style='margin:0; background:none; border:none; color:inherit;'>\" + logHistory.join(\"\\n\") + \"</pre>\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 1960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f9649d5aeb4ef2fb",
+        "type": "http in",
+        "z": "b9abb7620754b685",
+        "name": "get commande vocale",
+        "url": "/robot/commande",
+        "method": "post",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 160,
+        "y": 1000,
+        "wires": [
+            [
+                "f34e7d148834cb9f",
+                "792947963f537662"
+            ]
+        ]
+    },
+    {
+        "id": "f34e7d148834cb9f",
+        "type": "http response",
+        "z": "b9abb7620754b685",
+        "name": "Rep",
+        "statusCode": "",
+        "headers": {},
+        "x": 370,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "97db2b490869e812",
+        "type": "ui-dropdown",
+        "z": "b9abb7620754b685",
+        "group": "5badc6eeb7c158e7",
+        "name": "Langue",
+        "label": "Select Option:",
+        "tooltip": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "Français",
+                "value": "FR",
+                "type": "str"
+            },
+            {
+                "label": "Anglais",
+                "value": "EN",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "typeIsComboBox": false,
+        "msgTrigger": "onChange",
+        "x": 320,
+        "y": 2120,
+        "wires": [
+            [
+                "6d246897c815c34e",
+                "4a0733216a16bdc8"
+            ]
+        ]
+    },
+    {
+        "id": "4fdfbb7e8c2ce3db",
+        "type": "http in",
+        "z": "b9abb7620754b685",
+        "name": "get langue",
+        "url": "/robot/langue",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 320,
+        "y": 2180,
+        "wires": [
+            [
+                "eca7d8e24f968559"
+            ]
+        ]
+    },
+    {
+        "id": "eca7d8e24f968559",
+        "type": "function",
+        "z": "b9abb7620754b685",
+        "name": "function 2",
+        "func": "msg.payload = global.get(\"langue\"); \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 2180,
+        "wires": [
+            [
+                "8cb325c7aed772cb"
+            ]
+        ]
+    },
+    {
+        "id": "8cb325c7aed772cb",
+        "type": "http response",
+        "z": "b9abb7620754b685",
+        "name": "renvoi langue",
+        "statusCode": "",
+        "headers": {},
+        "x": 720,
+        "y": 2180,
+        "wires": []
+    },
+    {
+        "id": "6d246897c815c34e",
+        "type": "change",
+        "z": "b9abb7620754b685",
+        "name": "stockage langue",
+        "rules": [
+            {
+                "t": "set",
+                "p": "langue",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 2120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4a0733216a16bdc8",
+        "type": "link out",
+        "z": "b9abb7620754b685",
+        "name": "langue",
+        "mode": "link",
+        "links": [
+            "2b1e3a5e3ccece29"
+        ],
+        "x": 445,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "7c61733695842a01",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-node-daemon": "0.6.0",
+            "node-red-contrib-image-tools": "2.1.1",
+            "node-red-node-base64": "1.0.0"
+        }
+    }
+]
