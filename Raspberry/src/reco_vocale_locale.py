@@ -4,8 +4,8 @@ import speech_recognition as sr
 import reconnaissance_texte as rte
 import requests
 
-PI_URL = "http://localhost:1880"
-#PI_URL = "http://192.168.1.XX:1880"
+#PI_URL = "http://localhost:1880"
+PI_URL = "http://172.20.10.13:1880"
 
 
 def commande_vocale(langue):
