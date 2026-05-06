@@ -1,5 +1,9 @@
 import re
 import unicodedata
+import sys
+sys.path.append(r"C:\Users\CMF5190A\Downloads")
+
+import detection
 from dataclasses import dataclass
 from enum import Enum
 from typing import Optional, List
@@ -22,11 +26,11 @@ class Command:
     value: Optional[float] = None
     unit: Optional[str] = None
     color: Optional[str] = None
+    shape: Optional[str] = None 
     raw_text: str = ""
     normalized_text: str = ""
     valid: bool = False
     error: Optional[str] = None
-
 
 
 ACTION_PATTERNS = [
@@ -73,15 +77,13 @@ ACTION_PATTERNS = [
         "go straight", "move ahead", "continue"
     ]),
     
-    (Intent.ZIGZAG, ["zigzag", "faire zigzag"
-]),
-
+    (Intent.ZIGZAG, ["zigzag", "faire zigzag"]),
 ]
 
 
 COLOR_ALIASES = {
     "rouge": "red", "red": "red",
-    "vert": "green", "green": "green",
+    "vert": "green", "verte": "green", "green": "green",
     "bleu": "blue", "blue": "blue",
     "jaune": "yellow", "yellow": "yellow",
     "noir": "black", "black": "black",
@@ -91,6 +93,11 @@ COLOR_ALIASES = {
     "violet": "purple", "purple": "purple",
 }
 
+
+SHAPE_ALIASES = {
+    "balle": "BALLE",
+    "cube": "CUBE",
+}
 
 
 UNIT_ALIASES = {
@@ -135,7 +142,6 @@ def detect_intent(text: str) -> Intent:
     return Intent.UNKNOWN
 
 
-
 def extract_value_and_unit(text: str):
     match = re.search(
         r"(?:de\s*)?(\d+(?:[\.,]\d+)?)\s*(m|meter|meters|metre|metres|cm|centimeter|centimeters|centimetre|centimetres|deg|degree|degrees|degre|degres)?",
@@ -155,6 +161,14 @@ def extract_color(text: str):
     for c in COLOR_ALIASES:
         if re.search(rf"\b{c}\b", text):
             return COLOR_ALIASES[c]
+    return None
+
+
+
+def extract_shape(text: str):
+    for s in SHAPE_ALIASES:
+        if re.search(rf"\b{s}\b", text):
+            return SHAPE_ALIASES[s]
     return None
 
 
@@ -207,12 +221,13 @@ def parse_command(text: str) -> Command:
     intent = detect_intent(norm)
     value, unit = extract_value_and_unit(norm)
     color = extract_color(norm)
+    shape = extract_shape(norm)  
 
-    cmd = Command(intent, value, unit, color, text, norm)
+    cmd = Command(intent, value, unit, color, shape, text, norm)
     return validate_command(cmd)
 
 
-def expand_special_intent(cmd: Command, repetitions: int = 6, step: float = 1):
+def expand_special_intent(cmd: Command, repetitions: int = 6, step: float = 2):
     actions = []
 
     if cmd.intent == Intent.ZIGZAG:
@@ -222,14 +237,16 @@ def expand_special_intent(cmd: Command, repetitions: int = 6, step: float = 1):
                 "intent": Intent.AVANCER.value,
                 "value": step,
                 "unit": "m",
-                "target_color": None
+                "target_color": None,
+                "target_shape": None  
             })
             actions.append({
                 "ok": True,
                 "intent": Intent.TOURNER_GAUCHE.value if i % 2 == 0 else Intent.TOURNER_DROITE.value,
                 "value": 90.0,
                 "unit": "deg",
-                "target_color": None
+                "target_color": None,
+                "target_shape": None  
             })
     else:
         actions.append({
@@ -237,10 +254,12 @@ def expand_special_intent(cmd: Command, repetitions: int = 6, step: float = 1):
             "intent": cmd.intent.value,
             "value": cmd.value,
             "unit": cmd.unit,
-            "target_color": cmd.color
+            "target_color": cmd.color,
+            "target_shape": cmd.shape  
         })
 
     return actions
+
 
 def parse_to_robot_actions(text: str) -> List[dict]:
     normalized = normalize_text(text)
@@ -280,7 +299,8 @@ def parse_to_robot_actions(text: str) -> List[dict]:
                 "intent": cmd.intent.value,
                 "value": cmd.value,
                 "unit": cmd.unit,
-                "target_color": cmd.color
+                "target_color": cmd.color,
+                "target_shape": cmd.shape  
             })
         else:
             actions.append({
@@ -291,11 +311,27 @@ def parse_to_robot_actions(text: str) -> List[dict]:
 
     return actions
 
+def execute_actions(actions):
+    for action in actions:
+
+        if not action["ok"]:
+            print("Erreur:", action["error"])
+            continue
+
+        color = action.get("target_color")
+        shape = action.get("target_shape")
+
+        
+        if color or shape:
+            detection.track_object(color, shape)
+            return
 
 
-def interactive_demo():
+
+
+
+if __name__ == "__main__":
     print("Tape une commande ('quit' pour quitter)")
-
     while True:
         text = input(">> ")
 
@@ -305,6 +341,4 @@ def interactive_demo():
         payload = parse_to_robot_actions(text)
         print("Payload:", payload)
 
-
-if __name__ == "__main__":
-    interactive_demo()
+        execute_actions(payload)
