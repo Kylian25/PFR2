@@ -2,6 +2,7 @@ import serial
 import time
 import sys
 import threading
+import json
 import reconnaissance_texte_2_nonterminé as text
 
 
@@ -23,25 +24,42 @@ except Exception as e:
     sys.exit()
 
 robot_occupe = threading.Event()
+FICHIER_STATUT = "C:\\Users\grums\Documents\Cours_3A_SRI\PFR\dépot_git_PFR2\PFR2\Raspberry\data\\telemetrie.json"
+
+def mettre_a_jour_json(obs_fwd, obs_right, speed):
+    data = {
+        "obstacle_devant": int(obs_fwd),
+        "obstacle_droite": int(obs_right),
+        "vitesse_actuelle": int(speed)
+    }
+    with open(FICHIER_STATUT, 'w') as f:
+        json.dump(data, f, indent=3)
 
 # --- LECTURE  ---
 def lecture_continue():
     while True:
-        if ser.in_waiting > 500: 
-            ser.reset_input_buffer()
         if ser.in_waiting > 0:
             try:
                 line = ser.readline().decode('utf-8', errors='ignore').strip()
-                sys.stdout.write('\r' + ' ' * 60 + '\r') 
-                print(f"Réponse: {line}")
-
-                if "SEQUENCE_TERMINEE" in line:
-                        robot_occupe.set()
                 
-                sys.stdout.write("> ")
-                sys.stdout.flush()
-            except:
-                pass
+                if line.startswith("TELEMETRIE:"):
+                    valeurs = line.replace("TELEMETRIE:", "").split(",")
+                    if len(valeurs) == 3:
+                        mettre_a_jour_json(valeurs[0], valeurs[1], valeurs[2])
+
+                elif "ALERTE_OBSTACLE" in line:
+                    sys.stdout.write('\r' + ' ' * 60 + '\r')
+                    print("\n[!] ARRÊT D'URGENCE : Obstacle détecté pendant la séquence !")
+                
+                else:
+                    sys.stdout.write('\r' + ' ' * 60 + '\r') 
+                    print(f"Réponse: {line}")
+                    if "SEQUENCE_TERMINEE" in line:
+                        robot_occupe.set()
+                    sys.stdout.write("> ")
+                    sys.stdout.flush()
+            except Exception as e:
+                print(f"Erreur lecture: {e}")
         time.sleep(0.01)
 
 thread_lecture = threading.Thread(target=lecture_continue, daemon=True)

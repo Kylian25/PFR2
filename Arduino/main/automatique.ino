@@ -130,6 +130,7 @@ void droite(){
 }
 
 void stopMoteurs(){
+  set_speed(0);
   motor1.run(RELEASE);
   motor2.run(RELEASE);
   motor3.run(RELEASE);
@@ -142,6 +143,7 @@ void stopMoteurs(){
 }
 
 void set_speed(int speed){
+  v_actuelle = speed;
   motor1.setSpeed(speed); 
   motor2.setSpeed(speed);
   motor3.setSpeed(speed);
@@ -162,14 +164,22 @@ int detecter_obstacle(int trig, int echo){
 
   float distance = duree * 0.034/2;
 
-  if (distance > 2 && distance < 50){
-    if (millis() - dernierEnvoi >= intervalle) {
-        if (trig == 30) Serial.print("Obstacle devant à : ");
-        else if (trig == 40) Serial.print("Obstacle à droite à : ");
-        Serial.println(distance);
-        dernierEnvoi = millis();
-    }
-    return 1;
-  }
+  if (distance > 2 && distance < 50) return 1;
   else return 0;
+}
+
+void envoyerTelemetrie() {
+  if (millis() - dernierEnvoiTelemetrie >= intervalleTelemetrie) {
+    obs_fwd = detecter_obstacle(trig_fwd, echo_fwd);
+    obs_right = detecter_obstacle(trig_right, echo_right);
+    
+    Serial.print("TELEMETRIE:");
+    Serial.print(obs_fwd);
+    Serial.print(",");
+    Serial.print(obs_right);
+    Serial.print(",");
+    Serial.println(v_actuelle);
+    
+    dernierEnvoiTelemetrie = millis();
+  }
 }

@@ -32,6 +32,12 @@ Action fileActions[MAX_ACTIONS];
 int totalActions = 0;
 int actionCouranteIndex = 0;
 
+int obs_fwd = 0;
+int obs_right = 0;
+int v_actuelle = 0;
+unsigned long dernierEnvoiTelemetrie = 0;
+const int intervalleTelemetrie = 200;
+
 void setup() {
   Serial.begin(38400); 
   Serial3.begin(38400);
@@ -93,6 +99,17 @@ void loop() {
   }
   
   if (mode == 2) {
+    if (actionEnCours && strcmp(fileActions[actionCouranteIndex].intention, "AVANCER") == 0) {
+      if (detecter_obstacle(trig_fwd, echo_fwd)) {
+        stopMoteurs();
+        actionEnCours = false;
+        totalActions = 0;
+        actionCouranteIndex = 0;
+        Serial.println("ALERTE_OBSTACLE");
+        Serial.println("SEQUENCE_TERMINEE");
+      }
+    }
+
     if (actionEnCours) {
       if (millis() >= finActionMillis) {
         stopMoteurs();
@@ -146,4 +163,6 @@ void loop() {
       }
     }
   }
+
+  envoyerTelemetrie();
 }

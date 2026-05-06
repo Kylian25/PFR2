@@ -212,7 +212,7 @@ def parse_command(text: str) -> Command:
     return validate_command(cmd)
 
 
-def expand_special_intent(cmd: Command, repetitions: int = 6, step: float = 0.5):
+def expand_special_intent(cmd: Command, repetitions: int = 6, step: float = 1):
     actions = []
 
     if cmd.intent == Intent.ZIGZAG:

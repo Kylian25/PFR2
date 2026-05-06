@@ -18,5 +18,6 @@ void droite();
 void stopMoteurs();
 void set_speed(int speed);
 int detecter_obstacle(int trig, int echo);
+void envoyerTelemetrie();
 
 #endif
