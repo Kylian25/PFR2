@@ -1,24 +1,5 @@
 [INFO] Image rafraîchie
 
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
 [LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
@@ -31,20 +12,9 @@
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
 
@@ -56,34 +26,11 @@
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
 
 [INFO] Image rafraîchie
 
@@ -107,19 +54,277 @@
 
 [INFO] Image rafraîchie
 
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
 [LIDAR] Commande scan recue
 
-[1:52:43.062738706] [5949]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+[INFO] Image rafraîchie
 
-[1:52:43.276980660] [5989]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
+[INFO] Image rafraîchie
 
-[1:52:43.290787663] [5989]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[1:52:43.290888598] [5989]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[1:52:43.290958337] [5989]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+[INFO] Image rafraîchie
 
-[1:52:43.306923063] [5949]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
+[INFO] Image rafraîchie
 
-[1:52:43.307772319] [5989]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -145,19 +350,53 @@
 
 [INFO] Image rafraîchie
 
-[1:52:43.307772319] [5989]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
+[INFO] Image rafraîchie
 
-[1:52:43.306923063] [5949]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
+[INFO] Image rafraîchie
 
-[1:52:43.290787663] [5989]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[1:52:43.290888598] [5989]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[1:52:43.290958337] [5989]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+[INFO] Image rafraîchie
 
-[1:52:43.276980660] [5989]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
+[INFO] Image rafraîchie
 
-[1:52:43.062738706] [5949]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 </pre>
 [INFO] Image rafraîchie
 
@@ -169,7 +408,25 @@
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -193,8 +450,6 @@
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
@@ -202,29 +457,6 @@
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[1:53:31.490449709] [6011]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[1:53:31.652453345] [6051]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-[1:53:31.666622265] [6051]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[1:53:31.666727732] [6051]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[1:53:31.666783616] [6051]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-[1:53:31.688905471] [6011]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-[1:53:31.690401070] [6051]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
 
 [INFO] Image rafraîchie
 
@@ -236,91 +468,7 @@
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
 
@@ -345,8 +493,6 @@
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
@@ -354,28 +500,6 @@
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[1:55:39.256838069] [6100]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[1:55:39.381046452] [6141]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-[1:55:39.399876997] [6141]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[1:55:39.400063713] [6141]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[1:55:39.400151888] [6141]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-[1:55:39.424701758] [6100]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-[1:55:39.426402248] [6141]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
 
 [INFO] Image rafraîchie
 
@@ -387,7 +511,7 @@
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -411,8 +535,25 @@
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
+[INFO] Image rafraîchie
 
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -426,6 +567,37 @@
 
 [LIDAR] Commande scan recue
 
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
@@ -437,6 +609,834 @@
 [INFO] Image rafraîchie
 
 [LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -462,7 +1462,25 @@
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -483,23 +1501,6 @@
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-[LIDAR] Commande scan recue
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
 
@@ -519,21 +1520,11 @@
 
 [INFO] Image rafraîchie
 
-
-
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-<pre style='margin:0; font-size:12px; color:inherit;'>
 
 [INFO] Image rafraîchie
 
@@ -545,54 +1536,9 @@
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-[LIDAR] Commande scan recue
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-
 
 [INFO] Image rafraîchie
 
@@ -616,8 +1562,6 @@
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
@@ -628,15 +1572,6 @@
 
 [INFO] Image rafraîchie
 
-
-
-[LIDAR] Commande scan recue
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
@@ -646,8 +1581,6 @@
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
 
@@ -671,7 +1604,25 @@
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -695,8 +1646,6 @@
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
@@ -704,52 +1653,6 @@
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-FR
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-FR
-[INFO] Image rafraîchie
-
-
-
-[LIDAR] Commande scan recue
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
 
@@ -761,38 +1664,7 @@ FR
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
 
 [INFO] Image rafraîchie
 
@@ -817,7 +1689,25 @@ FR
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -841,20 +1731,9 @@ FR
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-EN
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
 
@@ -866,115 +1745,11 @@ EN
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
 
@@ -999,8 +1774,151 @@ EN
 
 [INFO] Image rafraîchie
 
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
 [LIDAR] Commande scan recue
 
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -1026,9 +1944,6 @@ EN
 
 [INFO] Image rafraîchie
 
-
-
-[LIDAR] Commande scan recue
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
@@ -1039,9 +1954,6 @@ EN
 
 [INFO] Image rafraîchie
 
-
-
-[LIDAR] Commande scan recue
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
@@ -1051,8 +1963,6 @@ EN
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
 
@@ -1065,6 +1975,16 @@ EN
 [INFO] Image rafraîchie
 
 [LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -1082,8 +2002,25 @@ EN
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
+[INFO] Image rafraîchie
 
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -1107,7 +2044,25 @@ EN
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -1131,19 +2086,9 @@ EN
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
 
@@ -1155,44 +2100,11 @@ EN
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
 
@@ -1218,6 +2130,118 @@ EN
 
 [LIDAR] Commande scan recue
 
+[LIDAR] Commande scan recue
+
+[LIDAR] Commande scan recue
+
+[0:06:23.262651178] [2182]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+
+[0:06:23.619126359] [2240]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
+
+[0:06:23.654408850] [2240]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
+[0:06:23.654523785] [2240]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media3 and ISP device /dev/media0
+[0:06:23.654613254] [2240]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+
+[0:06:23.685766731] [2182]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
+
+[0:06:23.686564870] [2240]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+[INFO] Image rafraîchie
+[INFO] Image rafraîchie
+[INFO] Image rafraîchie
+[INFO] Image rafraîchie
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -1241,7 +2265,25 @@ EN
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -1265,8 +2307,25 @@ EN
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
+[INFO] Image rafraîchie
 
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -1290,20 +2349,9 @@ EN
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
 
 [INFO] Image rafraîchie
 
@@ -1315,19 +2363,11 @@ EN
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
 
@@ -1351,27 +2391,15 @@ EN
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
-[LIDAR] Commande scan recue
-
-[2:10:58.367629437] [7569]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:10:58.710499848] [7635]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:10:58.727191723] [7635]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:10:58.727305632] [7635]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:10:58.727373706] [7635]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:10:58.746642774] [7569]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:10:58.747623264] [7635]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -1395,6 +2423,200 @@ EN
 
 [LIDAR] Commande scan recue
 
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -1420,6 +2642,34 @@ EN
 
 [INFO] Image rafraîchie
 
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
 
 
 [LIDAR] Commande scan recue
@@ -1428,646 +2678,6 @@ EN
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[2:10:58.747623264] [7635]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[2:10:58.746642774] [7569]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:10:58.727191723] [7635]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:10:58.727305632] [7635]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:10:58.727373706] [7635]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:10:58.710499848] [7635]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:10:58.367629437] [7569]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[LIDAR] Commande scan recue
-
-[LIDAR] Commande scan recue
-</pre>
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
 
@@ -2089,3776 +2699,6 @@ EN
 
 [INFO] Image rafraîchie
 
-
-
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[2:21:22.756866864] [7949]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:21:22.850424172] [7980]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:21:22.866159730] [7980]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:21:22.866259782] [7980]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:21:22.866316500] [7980]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:21:22.881979767] [7949]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:21:22.882677266] [7980]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[2:21:42.751797704] [7991]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:21:42.917594830] [8019]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:21:42.931577520] [8019]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:21:42.931676478] [8019]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:21:42.931731791] [8019]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:21:42.948260675] [7991]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:21:42.948959164] [8019]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-FR
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-FR
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[2:23:04.891920221] [8059]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:23:05.014338956] [8087]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:23:05.027801785] [8087]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:23:05.027910118] [8087]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:23:05.027966680] [8087]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:23:05.043093254] [8059]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:23:05.043769919] [8087]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-[LIDAR] Commande scan recue
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-[LIDAR] Commande scan recue
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[2:24:47.688545277] [8129]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:24:47.812313415] [8170]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:24:47.826058671] [8170]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:24:47.826162108] [8170]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:24:47.826222524] [8170]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:24:47.845749684] [8129]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:24:47.846547649] [8170]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[2:26:42.073121197] [8220]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:26:42.190209838] [8248]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:26:42.205038456] [8248]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:26:42.205153351] [8248]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:26:42.205219340] [8248]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:26:42.221875188] [8220]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:26:42.222654923] [8248]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-requete recue
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[{'ok': True, 'intent': 'AVANCER', 'value': 2.0, 'unit': 'm', 'target_color': None, 'target_shape': None}, {'ok': True, 'intent': 'TOURNER_DROITE', 'value': 90.0, 'unit': 'deg', 'target_color': None, 'target_shape': None}]
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[ERREUR][LIDAR] Descriptor length mismatch
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-requete recue
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[ERREUR][LIDAR] too many values to unpack (expected 2)
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-requete recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-requete recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-requete recue
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[LIDAR] Commande scan recue
-
-[2:32:24.009109160] [8302]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:32:24.121418432] [8343]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:32:24.135094158] [8343]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:32:24.135206240] [8343]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:32:24.135263167] [8343]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:32:24.151033095] [8302]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:32:24.151815588] [8343]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-[LIDAR] Commande scan recue
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[ERREUR][LIDAR] too many values to unpack (expected 2)
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[2:34:51.073375916] [8438]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:34:51.193994053] [8466]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:34:51.210019177] [8466]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:34:51.210119436] [8466]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:34:51.210173029] [8466]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:34:51.227316894] [8438]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:34:51.228062981] [8466]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[2:34:59.656892945] [8476]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-[2:34:59.771128737] [8517]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-[2:34:59.784743152] [8517]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:34:59.784838255] [8517]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:34:59.784888359] [8517]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:34:59.800483017] [8476]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:34:59.801210459] [8517]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[2:36:25.627217356] [8634]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:36:25.746836452] [8662]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-[2:36:25.760604872] [8662]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:36:25.760712423] [8662]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:36:25.760764610] [8662]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-[2:36:25.776149421] [8634]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-[2:36:25.780255114] [8662]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Courbes du dashboard réinitialisées
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[2:36:54.750912211] [8675]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:36:54.879620225] [8703]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:36:54.894369884] [8703]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:36:54.894470300] [8703]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:36:54.894527070] [8703]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:36:54.909751517] [8675]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:36:54.910446511] [8703]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[2:37:09.206369470] [8714]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:37:09.327783064] [8742]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:37:09.341519035] [8742]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:37:09.341628461] [8742]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:37:09.341687783] [8742]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:37:09.357462224] [8714]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:37:09.358221697] [8742]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-[LIDAR] Commande scan recue
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-[LIDAR] Commande scan recue
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-[LIDAR] Commande scan recue
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[2:44:15.714727673] [9339]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-[2:44:15.834042992] [9367]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-[2:44:15.847589313] [9367]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:44:15.847684783] [9367]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:44:15.847744679] [9367]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:44:15.866317538] [9339]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:44:15.868385934] [9367]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[2:46:39.394274828] [9407]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:46:39.652903274] [9435]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:46:39.666739660] [9435]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:46:39.666839556] [9435]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:46:39.666896066] [9435]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:46:39.681535005] [9407]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:46:39.682231882] [9435]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-[LIDAR] Commande scan recue
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-
-
-[LIDAR] Commande scan recue
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[2:47:58.851761199] [9446]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:47:58.947142953] [9475]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:47:58.960315673] [9475]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:47:58.960415777] [9475]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-
-[2:47:58.960473329] [9475]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:47:58.975479906] [9446]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:47:58.976248344] [9475]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[2:49:10.883484413] [9488]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:49:11.016961165] [9516]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:49:11.030274913] [9516]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:49:11.030378819] [9516]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:49:11.030433767] [9516]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:49:11.046312619] [9488]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:49:11.047005483] [9516]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-<pre style='margin:0; font-size:12px; color:inherit;'>
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-</pre>
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[2:50:18.710900707] [9586]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:50:18.832102408] [9622]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-[2:50:18.847513173] [9622]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:50:18.847609475] [9622]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:50:18.847675100] [9622]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-[2:50:18.863221803] [9586]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-[2:50:18.863913105] [9622]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[2:50:58.768717099] [9638]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:50:58.903360703] [9671]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-[2:50:58.917797609] [9671]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:50:58.917925161] [9671]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:50:58.917989067] [9671]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-[2:50:58.936680550] [9638]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-[2:50:58.937472945] [9671]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[2:51:48.219375032] [9671]  WARN V4L2 v4l2_videodevice.cpp:2100 /dev/video0[12:cap]: Dequeue timer of 1000000.00us has expired!
-[2:51:48.219608417] [9671] ERROR RPI pipeline_base.cpp:1356 Camera frontend has timed out!
-[2:51:48.219633730] [9671] ERROR RPI pipeline_base.cpp:1357 Please check that your camera sensor connector is attached securely.
-[2:51:48.219654094] [9671] ERROR RPI pipeline_base.cpp:1358 Alternatively, try another cable and/or sensor.
-
-[LIDAR] Commande scan recue
-
-[LIDAR] Commande scan recue
-
-
-[LIDAR] Commande scan recue
-
-[LIDAR] Commande scan recue
-
-[LIDAR] Commande scan recue
-
-
-[2:52:41.151693484] [9735]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:52:41.537285750] [9787]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:52:41.573900085] [9787]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:52:41.574011699] [9787]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:52:41.574076647] [9787]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:52:41.593890764] [9735]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:52:41.596257686] [9787]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-EN
-FR
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-
-[INFO] Image rafraîchie
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
@@ -5867,22 +2707,10 @@ FR
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
@@ -5891,8 +2719,6 @@ FR
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
@@ -5904,8 +2730,6 @@ FR
 [INFO] Image rafraîchie
 
 [LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -5915,27 +2739,8 @@ FR
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
-[INFO] Image rafraîchie
-
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
-[2:55:07.449551279] [9897]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-[2:55:07.566690852] [9927]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:55:07.581368871] [9927]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:55:07.581468298] [9927]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:55:07.581547620] [9927]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:55:07.597998394] [9897]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:55:07.598691620] [9927]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
@@ -5946,8 +2751,6 @@ FR
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
@@ -5957,8 +2760,6 @@ FR
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
 
@@ -5972,17 +2773,12 @@ FR
 
 [LIDAR] Commande scan recue
 
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
 
@@ -5993,8 +2789,6 @@ FR
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
 
@@ -6005,27 +2799,9 @@ FR
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[LIDAR] Commande scan recue
-
-[2:56:16.479112280] [10046]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:56:16.597192839] [10087]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:56:16.613850792] [10087]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:56:16.613956208] [10087]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:56:16.614011885] [10087]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
 
-[2:56:16.629683384] [10046]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:56:16.630634265] [10087]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
@@ -6035,36 +2811,12 @@ FR
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
-
 [INFO] Image rafraîchie
 
 [LIDAR] Commande scan recue
-
-[2:56:28.101237373] [10108]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:56:28.219225686] [10136]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:56:28.233327034] [10136]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:56:28.233430991] [10136]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:56:28.233487293] [10136]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:56:28.250748315] [10108]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-[2:56:28.251481281] [10136]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
 
@@ -6073,21 +2825,7 @@ FR
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[2:56:45.584694171] [10147]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:56:45.696585519] [10175]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:56:45.710273950] [10175]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:56:45.710378169] [10175]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:56:45.710438272] [10175]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
 
-[2:56:45.726435340] [10147]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:56:45.727221951] [10175]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
@@ -6097,48 +2835,17 @@ FR
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[LIDAR] Commande scan recue
 
-[2:57:07.713359801] [10214]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
-
-[2:57:07.828168830] [10242]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:57:07.841701219] [10242]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:57:07.841834812] [10242]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:57:07.841913926] [10242]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:57:07.859614682] [10214]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-
-[2:57:07.860483377] [10242]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-[2:57:15.070183448] [10252]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
 
-[2:57:15.188476000] [10280]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
-
-[2:57:15.202858072] [10280]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[2:57:15.202964165] [10280]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media0 and ISP device /dev/media1
-[2:57:15.203028592] [10280]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
-
-[2:57:15.220760024] [10252]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
-[2:57:15.221876842] [10280]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
@@ -6150,7 +2857,6 @@ FR
 [INFO] Image rafraîchie
 
 [LIDAR] Commande scan recue
-
 
 [INFO] Image rafraîchie
 
@@ -6162,17 +2868,11 @@ FR
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-                                                                                                                                                                                                                                                                                                    [LIDAR] Commande scan recue
 
 [LIDAR] Commande scan recue
 
@@ -6181,21 +2881,266 @@ FR
 <pre style='margin:0; font-size:12px; color:inherit;'>
 
 [LIDAR] Commande scan recue
+</pre>
+[0:09:04.814365338] [2265]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+
+[0:09:05.086075742] [2343]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
+
+[0:09:05.102045617] [2343]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
+[0:09:05.102158583] [2343]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media3 and ISP device /dev/media0
+[0:09:05.102228112] [2343]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+
+[0:09:05.120121210] [2265]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
+
+[0:09:05.120883478] [2343]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [LIDAR] Commande scan recue
-</pre>
-[0:03:10.921843005] [2045]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
 
-[0:03:11.280677714] [2195]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
+[INFO] Image rafraîchie
 
-[0:03:11.297480697] [2195]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[0:03:11.297611961] [2195]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media3 and ISP device /dev/media0
+[INFO] Image rafraîchie
 
-[0:03:11.297690980] [2195]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+[INFO] Image rafraîchie
 
-[0:03:11.322694262] [2045]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
+[INFO] Image rafraîchie
 
-[0:03:11.323494451] [2195]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[0:09:20.184310733] [2378]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+
+[0:09:20.277968998] [2407]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
+
+[0:09:20.291131929] [2407]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
+[0:09:20.291232081] [2407]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media3 and ISP device /dev/media0
+[0:09:20.291289735] [2407]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+
+[0:09:20.305920005] [2378]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
+
+[0:09:20.306601437] [2407]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -6256,30 +3201,2302 @@ FR
 
 [INFO] Image rafraîchie
 
-[0:03:11.323494451] [2195]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
+[INFO] Image rafraîchie
 
-[0:03:11.322694262] [2045]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
+[INFO] Image rafraîchie
 
-[0:03:11.297690980] [2195]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+[INFO] Image rafraîchie
 
-[0:03:11.297480697] [2195]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
-[0:03:11.297611961] [2195]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media3 and ISP device /dev/media0
+[INFO] Image rafraîchie
 
-[0:03:11.280677714] [2195]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
+[INFO] Image rafraîchie
 
-[0:03:10.921843005] [2045]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+</pre>
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[0:10:12.343215518] [2572]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+
+[0:10:12.469452932] [2612]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
+
+[0:10:12.482887712] [2612]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
+[0:10:12.482995206] [2612]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media3 and ISP device /dev/media0
+[0:10:12.483079368] [2612]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+
+[0:10:12.506131847] [2572]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
+
+[0:10:12.508327768] [2612]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+
 
 <pre style='margin:0; font-size:12px; color:inherit;'>
 
-[LIDAR] Commande scan recue
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 </pre>
+[INFO] Image rafraîchie
 
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[0:10:47.642076667] [2713]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+
+[0:10:47.768575292] [2744]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
+[0:10:47.782253993] [2744]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
+[0:10:47.782351435] [2744]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media3 and ISP device /dev/media0
+[0:10:47.782409660] [2744]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+[0:10:47.799197964] [2713]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
+[0:10:47.799901672] [2744]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[0:11:02.949085172] [2755]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+[0:11:03.086271550] [2786]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
+[0:11:03.101385692] [2786]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
+[0:11:03.101482314] [2786]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media3 and ISP device /dev/media0
+[0:11:03.101532995] [2786]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+[0:11:03.117078628] [2755]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
+[0:11:03.117797952] [2786]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[0:11:30.388097825] [2800]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+[0:11:30.517610940] [2843]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
+[0:11:30.530933849] [2843]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
+[0:11:30.531029635] [2843]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media3 and ISP device /dev/media0
+[0:11:30.531079689] [2843]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+
+[0:11:30.549693540] [2800]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
+
+[0:11:30.553262938] [2843]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [LIDAR] Commande scan recue
 
 [LIDAR] Commande scan recue
+
+[LIDAR] Commande scan recue
+
+[0:15:07.677665551] [3107]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+
+[0:15:08.147343121] [3148]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
+
+[0:15:08.163619872] [3148]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
+[0:15:08.163720598] [3148]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media3 and ISP device /dev/media0
+[0:15:08.163785544] [3148]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+
+[0:15:08.181817237] [3107]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
+
+[0:15:08.183795192] [3148]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+[INFO] Image rafraîchie
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+
+
+<pre style='margin:0; font-size:12px; color:inherit;'>
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 </pre>
 [INFO] Image rafraîchie
 
@@ -6291,22 +5508,11 @@ FR
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
-requete recue
-
 
 [INFO] Image rafraîchie
 
@@ -6318,20 +5524,9 @@ requete recue
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
-
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[INFO] Image rafraîchie
-
-[LIDAR] Commande scan recue
-
 
 [INFO] Image rafraîchie
 
@@ -6355,8 +5550,25 @@ requete recue
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
+[INFO] Image rafraîchie
 
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -6380,6 +5592,34 @@ requete recue
 
 [INFO] Image rafraîchie
 
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
 [LIDAR] Commande scan recue
 
 [INFO] Image rafraîchie
@@ -6392,7 +5632,25 @@ requete recue
 
 [INFO] Image rafraîchie
 
-[LIDAR] Commande scan recue
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
 
@@ -6413,4 +5671,1020 @@ requete recue
 [INFO] Image rafraîchie
 
 [INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[LIDAR] Commande scan recue
+
+
+[LIDAR] Commande scan recue
+
+[0:20:59.354031214] [3470]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+
+[0:20:59.460766068] [3504]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
+
+[0:20:59.483937586] [3504]  INFO Camera camera_manager.cpp:223 Adding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
+[0:20:59.484094204] [3504]  INFO RPI vc4.cpp:445 Registered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media3 and ISP device /dev/media0
+[0:20:59.484164310] [3504]  INFO RPI pipeline_base.cpp:1117 Using configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+
+[0:20:59.504342329] [3470]  INFO Camera camera.cpp:1215 configuring streams: (0) 640x480-XBGR8888/sRGB (1) 640x480-SBGGR10_CSI2P/RAW
+
+[0:20:59.505243546] [3504]  INFO RPI vc4.cpp:620 Sensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 640x480-SBGGR10_1X10/RAW - Selected unicam format: 640x480-pBAA/RAW
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[INFO] Image rafraîchie
+
+[LIDAR] Commande scan recue
 

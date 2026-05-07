@@ -3,7 +3,7 @@ import time
 import sys
 import threading
 import json
-import reconnaissance_texte_2_nonterminé as text
+import reconnaissance_texte_ok as text
 
 
 
@@ -24,7 +24,7 @@ except Exception as e:
     sys.exit()
 
 robot_occupe = threading.Event()
-FICHIER_STATUT = "C:\\Users\grums\Documents\Cours_3A_SRI\PFR\dépot_git_PFR2\PFR2\Raspberry\data\\telemetrie.json"
+FICHIER_STATUT = "/home/groupe2sri/PFR2/Raspberry/data/telemetrie.json"
 
 def mettre_a_jour_json(obs_fwd, obs_right, speed):
     data = {
