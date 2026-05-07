@@ -15,7 +15,7 @@ const int echo_right = 41;
 
 int etat_present = 0;
 int etat_suivant = 0;
-int mode = 2;
+int mode = 1;
 unsigned long dernierEnvoi = 0;
 const int intervalle = 500;
 unsigned long finActionMillis = 0;

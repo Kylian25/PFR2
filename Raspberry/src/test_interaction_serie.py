@@ -31,7 +31,7 @@ def mettre_a_jour_json(obs_fwd, obs_right, speed, mode):
         "obstacle_devant": int(obs_fwd),
         "obstacle_droite": int(obs_right),
         "vitesse_actuelle": int(speed),
-        "mode actuel": int(mode)
+        "mode": int(mode)
     }
     with open(FICHIER_STATUT, 'w') as f:
         json.dump(data, f, indent=4)
