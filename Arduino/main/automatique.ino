@@ -179,6 +179,8 @@ void envoyerTelemetrie() {
     Serial.print(obs_right);
     Serial.print(",");
     Serial.println(v_actuelle);
+    Serial.print(",");
+    Serial.println(mode);
     
     dernierEnvoiTelemetrie = millis();
   }

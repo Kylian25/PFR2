@@ -26,14 +26,15 @@ except Exception as e:
 robot_occupe = threading.Event()
 FICHIER_STATUT = "/home/groupe2sri/PFR2/Raspberry/data/telemetrie.json"
 
-def mettre_a_jour_json(obs_fwd, obs_right, speed):
+def mettre_a_jour_json(obs_fwd, obs_right, speed, mode):
     data = {
         "obstacle_devant": int(obs_fwd),
         "obstacle_droite": int(obs_right),
-        "vitesse_actuelle": int(speed)
+        "vitesse_actuelle": int(speed),
+        "mode actuel": int(mode)
     }
     with open(FICHIER_STATUT, 'w') as f:
-        json.dump(data, f, indent=3)
+        json.dump(data, f, indent=4)
 
 # --- LECTURE  ---
 def lecture_continue():
@@ -44,8 +45,8 @@ def lecture_continue():
                 
                 if line.startswith("TELEMETRIE:"):
                     valeurs = line.replace("TELEMETRIE:", "").split(",")
-                    if len(valeurs) == 3:
-                        mettre_a_jour_json(valeurs[0], valeurs[1], valeurs[2])
+                    if len(valeurs) == 4:
+                        mettre_a_jour_json(valeurs[0], valeurs[1], valeurs[2], valeurs[3])
 
                 elif "ALERTE_OBSTACLE" in line:
                     sys.stdout.write('\r' + ' ' * 60 + '\r')
@@ -82,14 +83,14 @@ def envoyer_sequence_dictionnaires(liste_commandes):
 try:
     while True:
         print("\n--- Menu ---")
-        print("1. Passer en mode Requêtes ('r')")
-        print("2. Envoyer séquence test (Dictionnaires)")
-        print("A. Passer en mode Automatique ('A')")
-        print("W. Passer en mode Manuel ('w')")
+        print("R. Passer en mode Requêtes")
+        print("T. Envoyer séquence test")
+        print("A. Passer en mode Automatique")
+        print("M. Passer en mode Manuel")
         
         choix = input("Votre choix : ").strip()
 
-        if choix == '1':
+        if choix == 'R':
             ser.write(b'r')
             print("\n-> Ordre envoyé : Mode Requêtes")
             cmd = input("Entrez la commande : ")
@@ -97,7 +98,7 @@ try:
             if cmd:
                 envoyer_sequence_dictionnaires(cmd)
         
-        elif choix == '2':
+        elif choix == 'T':
             ma_liste = [
                 {"ok": True, "intent": "AVANCER", "value": 2},
                 {"ok": True, "intent": "TOURNER", "value": 90},
@@ -109,7 +110,7 @@ try:
             ser.write(b'@')
             print("\n-> Ordre envoyé : Mode Automatique")
             
-        elif choix.upper() == 'W':
+        elif choix.upper() == 'M':
             ser.write(b'w')
             print("\n-> Ordre envoyé : Mode Manuel")
 
