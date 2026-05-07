@@ -1,7 +1,7 @@
 import re
 import unicodedata
 import sys
-sys.path.append("c:/Users/Lenovo/Downloads/")
+#sys.path.append("C:\Users\grums\Documents\Cours_3A_SRI\PFR\dépot_git_PFR2\PFR2\Raspberry\src\detection.py")
 import detection
 from dataclasses import dataclass
 from enum import Enum

@@ -24,7 +24,7 @@ char dernierOrdre = 'S';
 
 struct Action {
   char intention[20];
-  int valeur;
+  float valeur;
 };
 
 #define MAX_ACTIONS 15
@@ -70,6 +70,7 @@ void loop() {
 
     if (c == '@' || c == 'W') {
       mode = 0;
+      etat_present = 0;
       Serial.println("Passage en mode automatique");
     }
     else if (c == 'w') {
@@ -121,7 +122,7 @@ void loop() {
     else {
       if (actionCouranteIndex < totalActions) {
         char* intention = fileActions[actionCouranteIndex].intention;
-        int valeur = fileActions[actionCouranteIndex].valeur;
+        float valeur = fileActions[actionCouranteIndex].valeur;
 
         Serial.print("Execution : "); Serial.println(intention);
 

@@ -93,10 +93,11 @@ try:
         if choix == 'R':
             ser.write(b'r')
             print("\n-> Ordre envoyé : Mode Requêtes")
-            cmd = input("Entrez la commande : ")
-            cmd = text.parse_to_robot_actions(cmd)
-            if cmd:
-                envoyer_sequence_dictionnaires(cmd)
+            liste_actions = input("Entrez la commande : ")
+            liste_actions = text.parse_to_robot_actions(liste_actions)
+            for cmd in text.execute_actions(liste_actions):
+                if cmd:
+                    envoyer_sequence_dictionnaires(cmd)
         
         elif choix == 'T':
             ma_liste = [

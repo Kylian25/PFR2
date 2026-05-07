@@ -16,7 +16,7 @@ def stop():
 
 def read_vision():
     try:
-        with open(r"C:\Users\Lenovo\Downloads\detections.json", "r") as f:
+        with open(r"C:\Users\grums\Documents\Cours_3A_SRI\PFR\dépot_git_PFR2\PFR2\Raspberry\src\detections.json", "r") as f:
             return json.load(f)
     except Exception as e:
         return []
@@ -60,19 +60,17 @@ def track_object(target_color=None, target_shape=None):
 
             time.sleep(0.3)
             continue
+        else:
+            rotations = 0
+            position = target.get("position", "CENTRE") 
 
-        rotations = 0
-        position = target.get("position", "CENTRE") 
+            if position == "GAUCHE":
+                yield tourner_gauche(10)
+            elif position == "DROITE":
+                yield tourner_droite(10) 
+            else: 
+                yield avancer(20)
+                yield stop()
+                break 
 
-        if position == "GAUCHE":
-            yield tourner_gauche(10)
-        elif position == "DROITE":
-            yield tourner_droite(10) 
-        else: 
-            yield avancer(20)
-            
-            
-            yield stop()
-            break 
-
-        time.sleep(0.1)
+        time.sleep(0.5)

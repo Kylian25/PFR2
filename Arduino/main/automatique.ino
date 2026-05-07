@@ -1,23 +1,34 @@
 #include "automatique.h"
 
 void mode_auto(int trig_fwd, int echo_fwd, int trig_right, int echo_right) {
+  obs_fwd = detecter_obstacle(trig_fwd, echo_fwd);
+  obs_right = detecter_obstacle(trig_right, echo_right);
+
   switch(etat_present){
     case 0 :
-      if (detecter_obstacle(trig_fwd,echo_fwd)){
-        etat_suivant = 1;
+      if (obs_fwd){
+        stopMoteurs();
+        etat_suivant = 3;
       }
       else avancer();
       break;
+
+    case 3 :
+      reculer();
+      delay(300);
+      gauche();
+      delay(150);
+      etat_suivant = 1;
+      break;
+
     case 1 :
-      if (detecter_obstacle(trig_right,echo_right)){
-        if (detecter_obstacle(trig_fwd,echo_fwd)) etat_suivant = 2;
+      if (obs_right){
+        if (obs_fwd) etat_suivant = 3;
         else etat_suivant = 0;
       }
-      else gauche();
-      break;
-    case 2 :
-      gauche();
-      etat_suivant = 1;
+      else {
+        etat_suivant = 0;
+      }
       break;
   }
 
@@ -67,7 +78,7 @@ void mode_requetes(String commande) {
       char* valeurStr = virgule + 1;
 
       strncpy(fileActions[totalActions].intention, intention, 19);
-      fileActions[totalActions].valeur = atoi(valeurStr);
+      fileActions[totalActions].valeur = atof(valeurStr);
       totalActions++;
     }
     bloc = strtok(NULL, " ");
@@ -178,7 +189,7 @@ void envoyerTelemetrie() {
     Serial.print(",");
     Serial.print(obs_right);
     Serial.print(",");
-    Serial.println(v_actuelle);
+    Serial.print(v_actuelle);
     Serial.print(",");
     Serial.println(mode);
     
