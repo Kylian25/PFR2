@@ -1,0 +1,20 @@
+[
+{
+"couleur": "ORANGE",
+"forme": "CUBE",
+"position": "DROITE",
+"centre": [
+229,
+167
+]
+},
+{
+"couleur": "BLEU",
+"forme": "BALLE",
+"position": "CENTRE",
+"centre": [
+77,
+152
+]
+}
+]

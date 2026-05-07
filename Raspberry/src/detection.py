@@ -8,7 +8,7 @@ def tourner_droite(angle):
     return [{'ok': True, 'intent': 'TOURNER_DROITE', 'value': angle, 'unit': 'deg', 'target_color': None, 'target_shape': None}]
 
 def avancer(distance):
-    return  [{'ok': True, 'intent': 'AVANCER', 'value': distance , 'unit': 'm', 'target_color': None, 'target_shape': None}]
+    return [{'ok': True, 'intent': 'AVANCER', 'value': distance , 'unit': 'm', 'target_color': None, 'target_shape': None}]
 
 def stop():
    return [{'ok': True, 'intent': 'STOP', 'value': None, 'unit': None, 'target_color': None, 'target_shape': None}]
@@ -16,19 +16,26 @@ def stop():
 
 def read_vision():
     try:
-        with open(r"C:\Users\CMF5190A\Downloads\detections.json", "r") as f:
+        with open(r"C:\Users\Lenovo\Downloads\detections.json", "r") as f:
             return json.load(f)
-    except:
+    except Exception as e:
         return []
     
 
 def find_target(data, color=None, shape=None):
+    
+    traductions_fr = {
+        "red": "rouge", "green": "vert", "blue": "bleu", 
+        "yellow": "jaune", "black": "noir", "white": "blanc",
+        "pink": "rose", "purple": "violet", "orange": "orange"
+    }
+    
+    color_fr = traductions_fr.get(color, color) if color else None
+
     for obj in data:
-        if color and obj["couleur"].lower() != color:
-            print(color) , print( obj["couleur"])
+        if color_fr and obj.get("couleur", "").lower() != color_fr:
             continue
-        if shape and obj["forme"] != shape:
-            print(shape) , print( obj["forme"])
+        if shape and obj.get("forme") != shape:
             continue
         return obj
     return None
@@ -44,35 +51,28 @@ def track_object(target_color=None, target_shape=None):
         target = find_target(data, target_color, target_shape)
 
         if not target:
-            tourner_droite(ROTATION_STEP)
-            print(tourner_droite(ROTATION_STEP))
+            yield tourner_droite(ROTATION_STEP)
             rotations += 1
 
             if rotations >= MAX_ROTATIONS:
-                print("Objet introuvable")
-                stop()
-                return
+                yield stop()
+                break 
 
             time.sleep(0.3)
             continue
 
         rotations = 0
-        
+        position = target.get("position", "CENTRE") 
 
-        position = target["position"]
-
-       
         if position == "GAUCHE":
-            tourner_gauche(10)
-            print(tourner_gauche(10))
+            yield tourner_gauche(10)
         elif position == "DROITE":
-            tourner_droite(10)
-            print(tourner_gauche(10))
-            
+            yield tourner_droite(10) 
         else: 
-            avancer(0.2)
-
-
-        avancer(10)
+            yield avancer(20)
+            
+            
+            yield stop()
+            break 
 
         time.sleep(0.1)

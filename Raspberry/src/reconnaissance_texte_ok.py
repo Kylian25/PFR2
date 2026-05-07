@@ -1,8 +1,7 @@
 import re
 import unicodedata
 import sys
-sys.path.append(r"C:\Users\CMF5190A\Downloads")
-
+sys.path.append("c:/Users/Lenovo/Downloads/")
 import detection
 from dataclasses import dataclass
 from enum import Enum
@@ -70,7 +69,7 @@ ACTION_PATTERNS = [
     ]),
 
     (Intent.AVANCER, [
-        "avance", "avancer", "va tout droit",
+        "avance", "avancer", "va tout droit","vas vers","va",
         "continue",
 
         "forward", "go forward", "move forward",
@@ -311,38 +310,50 @@ def parse_to_robot_actions(text: str) -> List[dict]:
 
     return actions
 
-def execute_actions(actions):
-    for action in actions:
 
+
+import sys
+import json
+import detection
+
+
+def execute_actions(actions):
+    """
+    Cette fonction est maintenant un générateur. 
+    Elle yield chaque commande prête à être envoyée au robot.
+    """
+    for action in actions:
         if not action["ok"]:
-            print("Erreur:", action["error"])
+            yield {"ok": False, "error": action.get("error")}
             continue
 
         color = action.get("target_color")
         shape = action.get("target_shape")
 
-        
         if color or shape:
-            detection.track_object(color, shape)
-            return
-
-
-
+            for cmd_tracking in detection.track_object(color, shape):
+                yield cmd_tracking
+        else:
+            yield [action]
 
 
 if __name__ == "__main__":
-    #print("Tape une commande ('quit' pour quitter)")
     try:
         while True:
             text = sys.stdin.readline().strip()
-            print("requete recue", file=sys.stderr, flush=True)
-
+            if not text:
+                continue
+                
             if text.lower() in {"quit", "exit"}:
                 break
 
-            payload = parse_to_robot_actions(text)
-            print(payload, flush=True)
+            actions_list = parse_to_robot_actions(text)
+            
+            for cmd in execute_actions(actions_list):
+              
+                print(json.dumps(cmd), flush=True)
 
-            execute_actions(payload)
+    except KeyboardInterrupt:
+        print("\n[INFO] Arrêt manuel.", file=sys.stderr, flush=True)
     except Exception as e:
-        print(f"[ERREUR][Requete] {e}", file=sys.stderr, flush=True)
+        print(f"[ERREUR][Main] {e}", file=sys.stderr, flush=True)
