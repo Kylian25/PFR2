@@ -111,8 +111,10 @@ def detect_balls(frame):
             # stockage JSON
             detections.append({
                 "couleur": color_name,
+                "forme" : "BALLE",
                 "position": position,
                 "centre": [center_x, center_y]
+                
             })
 
             # rectangle

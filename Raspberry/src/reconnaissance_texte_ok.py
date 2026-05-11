@@ -1,7 +1,6 @@
 import re
 import unicodedata
 import sys
-#sys.path.append("C:\Users\grums\Documents\Cours_3A_SRI\PFR\dépot_git_PFR2\PFR2\Raspberry\src\detection.py")
 import detection
 from dataclasses import dataclass
 from enum import Enum
@@ -42,7 +41,7 @@ ACTION_PATTERNS = [
         "detecte la couleur", "detecter la couleur",
         "cherche la couleur", "identifie la couleur",
         "analyse la couleur", "quelle couleur",
-        "detecte l objet",
+        "detecte l objet","cherche", "trouve",
 
         "detect color", "find color", "identify color",
         "what color", "scan color", "recognize color"
@@ -226,7 +225,7 @@ def parse_command(text: str) -> Command:
     return validate_command(cmd)
 
 
-def expand_special_intent(cmd: Command, repetitions: int = 6, step: float = 2):
+def expand_special_intent(cmd: Command, repetitions: int = 6, step: float = 1):
     actions = []
 
     if cmd.intent == Intent.ZIGZAG:
@@ -242,7 +241,7 @@ def expand_special_intent(cmd: Command, repetitions: int = 6, step: float = 2):
             actions.append({
                 "ok": True,
                 "intent": Intent.TOURNER_GAUCHE.value if i % 2 == 0 else Intent.TOURNER_DROITE.value,
-                "value": 90.0,
+                "value": 60.0,
                 "unit": "deg",
                 "target_color": None,
                 "target_shape": None  
