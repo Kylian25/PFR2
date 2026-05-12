@@ -21,7 +21,7 @@ def recup_donnes_lidar_tours(lidar, nb_tours):
     lidar.clean_input()
     try:
         data = []
-        scans = lidar.iter_scans('normal', 3000, 200)
+        scans = lidar.iter_scans('normal', 5000, 200)
 
         for scan in scans:
             data.append(scan)
@@ -29,7 +29,7 @@ def recup_donnes_lidar_tours(lidar, nb_tours):
                 break
     finally:
         lidar.stop()
-        time.sleep(0.1)
+        time.sleep(0.5)
         lidar.clean_input()
 
     return data

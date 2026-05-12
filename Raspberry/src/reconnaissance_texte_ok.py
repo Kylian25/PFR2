@@ -44,7 +44,7 @@ ACTION_PATTERNS = [
         "detecte l objet","cherche", "trouve",
 
         "detect color", "find color", "identify color",
-        "what color", "scan color", "recognize color"
+        "what color", "scan color", "recognize color","find", "search"
     ]),
 
     (Intent.TOURNER_GAUCHE, [
@@ -317,10 +317,7 @@ import detection
 
 
 def execute_actions(actions):
-    """
-    Cette fonction est maintenant un générateur. 
-    Elle yield chaque commande prête à être envoyée au robot.
-    """
+    
     for action in actions:
         if not action["ok"]:
             yield {"ok": False, "error": action.get("error")}

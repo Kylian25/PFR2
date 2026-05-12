@@ -42,8 +42,8 @@ def find_target(data, color=None, shape=None):
 
 
 def track_object(target_color=None, target_shape=None):
-    MAX_ROTATIONS = 15
-    ROTATION_STEP = 30
+    MAX_ROTATIONS = 20
+    ROTATION_STEP = 20
     rotations = 0
 
     while True:
@@ -73,4 +73,4 @@ def track_object(target_color=None, target_shape=None):
                 yield stop()
                 break 
 
-        time.sleep(0.5)
+        time.sleep(0.1)

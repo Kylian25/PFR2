@@ -1,6 +1,6 @@
 {
-    "obstacle_devant": 0,
-    "obstacle_droite": 1,
+    "obstacle_devant": 1,
+    "obstacle_droite": 0,
     "vitesse_actuelle": 0,
-    "mode": 1
+    "mode": 2
 }
